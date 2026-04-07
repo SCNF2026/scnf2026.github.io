@@ -7,13 +7,26 @@ hide:
 
 ![SCNF 2026 logo](assets/logo-hero.svg){ .hero-logo }
 
-## International workshop · Japan · 2026
+<p class="hero-kicker">International workshop · Japan · 2026</p>
 
-# Structure and Closure in Nonequilibrium Flows
+<h1 class="hero-title">
+  <span class="hero-word">
+    <span class="hero-initial hero-s">S</span>tructure and
+  </span>
+  <span class="hero-word">
+    <span class="hero-initial hero-c">C</span>losure in
+  </span>
+  <span class="hero-word">
+    <span class="hero-initial hero-n">N</span>onequilibrium
+  </span>
+  <span class="hero-word">
+    <span class="hero-initial hero-f">F</span>lows
+  </span>
+</h1>
 
-<div class="subtitle" markdown>
-SCNF 2026 is a small, invitation-only workshop devoted to the structural foundations of nonequilibrium flow modelling beyond the classical Navier–Stokes–Fourier regime. Bringing together perspectives from **Rational Extended Thermodynamics (RET)**, **kinetic theory and moment hierarchies**, **GENERIC**, and neighboring continuum or statistical approaches, the workshop is designed to compare structural principles across frameworks, sharpen open questions in **boundary and interface conditions** as well as **computational realization**, and identify benchmark problems and collaborations for the next stage of the field.
-</div>
+<p class="hero-lead">
+  SCNF 2026 is an invitation-only workshop devoted to the structural foundations of nonequilibrium flow modelling beyond the classical Navier–Stokes–Fourier regime. Bringing together perspectives from <strong>Rational Extended Thermodynamics (RET)</strong>, <strong>kinetic theory and moment hierarchies</strong>, <strong>GENERIC</strong>, and neighboring continuum or statistical approaches, the workshop is designed to compare structural principles across frameworks, sharpen open questions in <strong>boundary and interface conditions</strong> as well as <strong>computational realization</strong>, and identify benchmark problems and collaborations for the next stage of the field.
+</p>
 
 <div class="keyfacts" markdown>
 <div class="fact" markdown>
@@ -69,16 +82,16 @@ SCNF 2026 is a small, invitation-only workshop devoted to the structural foundat
 
 <div class="grid cards landing people-cards" markdown>
 
-- **Organizing Committee**
-  Takashi Arima
-  Elvira Barbera
-  Francesca Brini
-  Shigeru Taniguchi
+- **Organizing Committee**<br>
+  Takashi Arima<br>
+  Elvira Barbera<br>
+  Francesca Brini<br>
+  Shigeru Taniguchi<br>
   [:octicons-arrow-right-24: Full details](organizers.md)
 
 - **Advisors** <br>
-  Tommaso Ruggeri
-  Masaru Sugiyama
+  Tommaso Ruggeri<br>
+  Masaru Sugiyama<br>
   [:octicons-arrow-right-24: Full details](organizers.md)
 
 </div>
