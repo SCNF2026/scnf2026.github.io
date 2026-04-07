@@ -5,7 +5,7 @@ hide:
 
 <div class="hero landing" markdown>
 
-![SCNF 2026 logo](assets/logo-hero.svg){ .hero-logo }
+<!--![SCNF 2026 logo](assets/logo-hero.svg){ .hero-logo }-->
 
 <p class="hero-kicker">International workshop · Japan · 2026</p>
 

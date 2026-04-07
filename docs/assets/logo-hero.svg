@@ -13,15 +13,40 @@
       <stop offset="65%" stop-color="#00BCD4" />
       <stop offset="100%" stop-color="#00BCD4" />
     </linearGradient>
-    <filter id="waveShadow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="5" stdDeviation="4" flood-color="#000000" flood-opacity="0.25"/>
+
+    <filter id="logoShadow" x="-15%" y="-25%" width="130%" height="170%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="5" result="shadowOffset" />
+      <feGaussianBlur in="shadowOffset" stdDeviation="4" result="shadowBlur" />
+      <feFlood flood-color="#000000" flood-opacity="0.35" result="shadowColor" />
+      <feComposite in="shadowColor" in2="shadowBlur" operator="in" result="shadow" />
+
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2.8" result="glowWhiteBlur" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.22" result="glowWhiteColor" />
+      <feComposite in="glowWhiteColor" in2="glowWhiteBlur" operator="in" result="glowWhite" />
+
+      <feGaussianBlur in="SourceAlpha" stdDeviation="7" result="glowCyanBlur" />
+      <feFlood flood-color="#00BCD4" flood-opacity="0.10" result="glowCyanColor" />
+      <feComposite in="glowCyanColor" in2="glowCyanBlur" operator="in" result="glowCyan" />
+
+      <feMerge>
+        <feMergeNode in="shadow" />
+        <feMergeNode in="glowCyan" />
+        <feMergeNode in="glowWhite" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
     </filter>
   </defs>
-  <path d="M -20,125 C 60,125 120,75 220,75 C 280,75 330,165 400,165 L 400,75 L 480,165 L 480,75 C 495,75 520,125 550,125 L 870,125" fill="none" stroke="url(#nWaveGrad)" stroke-width="14" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10" filter="url(#waveShadow)" />
-  <g font-family="'Inter', -apple-system, sans-serif" font-size="130" font-weight="900" text-anchor="middle" fill="currentColor">
-    <text x="220" y="165">S</text>
-    <text x="330" y="165">C</text>
-    <text x="550" y="165">F</text>
+
+  <g filter="url(#logoShadow)">
+    <path d="M -20,125 C 60,125 120,75 220,75 C 280,75 330,165 400,165 L 400,75 L 480,165 L 480,75 C 495,75 520,125 550,125 L 870,125"
+          fill="none" stroke="url(#nWaveGrad)" stroke-width="14" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10" />
+
+    <g font-family="'Inter', -apple-system, sans-serif" font-size="130" font-weight="900" text-anchor="middle" fill="#FFFFFF">
+      <text x="220" y="165">S</text>
+      <text x="330" y="165">C</text>
+      <text x="550" y="165">F</text>
+    </g>
+
+    <text x="615" y="115" font-family="'JetBrains Mono', monospace" font-size="40" font-weight="800" letter-spacing="1" fill="#00BCD4" text-anchor="start">2026</text>
   </g>
-  <text x="615" y="115" font-family="'JetBrains Mono', monospace" font-size="40" font-weight="800" letter-spacing="1" fill="#00BCD4" text-anchor="start">2026</text>
 </svg>

@@ -13,15 +13,16 @@ The workshop brings together perspectives from **Rational Extended Thermodynamic
 
 ## Main objectives
 
-- **Compare structural principles across frameworks.**  
+- **Compare structural principles across frameworks.**
   Clarify commonalities and differences in entropy principles, hyperbolicity, stability, reversible/irreversible coupling, and realizability.
 
-- **Connect structural ideas to concrete nonequilibrium flow problems.**  
+- **Connect structural ideas to concrete nonequilibrium flow problems.**
   Discuss how closure principles affect modelling choices for shocks, rarefied gases, multiphase flow, fluctuations, interfaces, and other strongly nonequilibrium regimes.
 
-- **Identify priorities for the next decade.**  
+- **Identify priorities for the next decade.**
   Distil a shortlist of open problems, shared benchmarks, and collaboration opportunities that can accelerate progress across neighboring communities.
 
+<!--
 ## Scientific focus
 
 <div class="grid cards focus-cards" markdown>
@@ -37,5 +38,6 @@ The workshop brings together perspectives from **Rational Extended Thermodynamic
 
 -   **Boundary conditions, computation, and benchmark problems**
     Structure-preserving numerics, hyperbolic continuum models, computational realization, and comparison with experimental or reference kinetic results.
+-->
 
 </div>

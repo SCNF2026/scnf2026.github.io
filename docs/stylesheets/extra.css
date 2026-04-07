@@ -34,19 +34,64 @@ body {
   max-width: 75rem;
 }
 
+/* ===== Make main content use the page width more fully ===== */
 .md-main__inner {
-  margin-top: 1.2rem;
+  max-width: 100%;
+  margin-top: 0;
+}
+
+.md-content {
+  margin-left: 0;
 }
 
 .md-content__inner {
-  padding-bottom: 3.5rem;
+  margin: 0;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
 }
 
+/* ===== Header: use hero logo as the main header logo ===== */
 .md-header {
-  background: color-mix(in srgb, var(--md-default-bg-color) 78%, transparent);
-  backdrop-filter: blur(16px) saturate(180%);
-  border-bottom: 1px solid var(--scnf-border);
-  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.03);
+  background: linear-gradient(90deg, #0b0d16 0%, #0b0d16 55%, #101522 100%);
+}
+
+.md-header__inner {
+  min-height: 6.1rem;
+}
+
+.md-header__button.md-logo {
+  padding: 0.35rem 0.2rem;
+}
+
+.md-header__button.md-logo img {
+  height: 4.9rem;
+  width: auto;
+}
+
+.md-header__title {
+  display: none;
+}
+
+/* Push search area to the far right in the header */
+.md-header__option {
+  margin-left: auto;
+}
+
+/* ===== Navigation and UI text ===== */
+.md-nav,
+.md-tabs,
+.md-header__title,
+.md-search__input {
+  font-size: 0.82rem;
+}
+
+.md-tabs__link {
+  font-size: 0.78rem;
+}
+
+.md-header__topic,
+.md-ellipsis {
+  font-size: 0.9rem;
 }
 
 .md-tabs {
@@ -56,11 +101,6 @@ body {
 .md-tabs__link--active,
 .md-tabs__link:hover {
   opacity: 1;
-}
-
-.md-header__button.md-logo img {
-  height: 1.72rem;
-  width: auto;
 }
 
 .hero {
@@ -91,8 +131,8 @@ body {
 
 /* ---------- Hero layout ---------- */
 .hero.landing {
-  padding-top: 1.2rem; /* 上に寄せる */
-  padding-bottom: 2.6rem;
+  padding-top: 0.9rem;
+  padding-bottom: 1.9rem;
 }
 
 /* Logo: larger and closer to top */
@@ -105,29 +145,35 @@ body {
 
 /* Kicker: gray, compact, no forced line break */
 .hero .hero-kicker {
-  margin: 0 0 0.8rem 0;
-  color: #7a7a80;
-  font-size: clamp(1.1rem, 1.5vw, 1.45rem);
+  margin: 0 0 0.65rem 0;
+  color: #7c7c82;
+  font-size: clamp(0.92rem, 1vw, 1.08rem);
   font-weight: 600;
-  line-height: 1.2;
+  line-height: 1.15;
   letter-spacing: -0.01em;
-  max-width: none;
 }
 
 /* Main title */
 .hero .hero-title {
-  margin: 0 0 1.15rem 0;
+  margin: 0 0 0.85rem 0;
   color: #151515;
-  font-size: clamp(2.6rem, 4.7vw, 4.6rem);
+  font-size: clamp(2rem, 3.8vw, 3.6rem);
   font-weight: 800;
-  line-height: 1.02;
-  letter-spacing: -0.04em;
+  line-height: 1.04;
+  letter-spacing: -0.03em;
+  text-transform: none;
+}
+
+.hero .hero-title,
+.hero .hero-title * {
+  text-transform: none !important;
 }
 
 /* Keep each phrase together, but allow line wrapping between phrases */
 .hero .hero-word {
   display: inline;
   white-space: nowrap;
+  text-transform: none;
 }
 
 /* Colored initials only */
@@ -136,15 +182,15 @@ body {
 }
 
 .hero .hero-s {
-  color: #11b5d8;
+  color: #16b7dc;
 }
 
 .hero .hero-c {
-  color: #2f80ff;
+  color: #3a7dff;
 }
 
 .hero .hero-n {
-  background: linear-gradient(90deg, #c22cff 0%, #ff5f6d 45%, #ffb400 100%);
+  background: linear-gradient(90deg, #d62cff 0%, #ff5f6d 48%, #ffb000 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -152,22 +198,21 @@ body {
 }
 
 .hero .hero-f {
-  color: #11b5d8;
+  color: #16b7dc;
 }
 
 /* Lead paragraph */
 .hero .hero-lead {
-  margin-top: 0.25rem;
-  max-width: 1200px;
-  font-size: clamp(1.12rem, 1.35vw, 1.5rem);
-  line-height: 1.75;
+  margin-top: 0.08rem;
+  max-width: 980px;
+  font-size: clamp(0.92rem, 0.95vw, 1.04rem);
+  line-height: 1.68;
   color: #262626;
 }
 
-/* Strong text inside lead */
 .hero .hero-lead strong {
   font-weight: 700;
-  color: #1a1a1a;
+  color: #1b1b1b;
 }
 
 [data-md-color-scheme="slate"] .hero {
@@ -195,7 +240,6 @@ body {
   line-height: 1.2;
   font-weight: 720;
   letter-spacing: 0.18em;
-  text-transform: uppercase;
   color: var(--md-default-fg-color--light);
 }
 
@@ -268,6 +312,12 @@ body {
   flex-wrap: wrap;
 }
 
+/* ===== Global typography: slightly smaller and cleaner ===== */
+.md-typeset {
+  font-size: 0.84rem;
+  line-height: 1.7;
+}
+
 .md-typeset .md-button {
   border-radius: 999px;
   padding: 0.72em 1.18em;
@@ -295,25 +345,33 @@ body {
 }
 
 .md-typeset h1 {
-  font-size: 2rem;
-  margin-bottom: 0.65rem;
+  font-size: 1.9rem;
+  line-height: 1.15;
+  margin: 0 0 1rem;
+  letter-spacing: -0.02em;
 }
 
 .md-typeset h2 {
-  font-size: 1.52rem;
-  margin-top: 2.35rem;
-  margin-bottom: 0.7rem;
+  font-size: 1.35rem;
+  line-height: 1.2;
+  margin: 1.8rem 0 0.7rem;
 }
 
 .md-typeset h3 {
-  font-size: 1.1rem;
-  margin-top: 1.4rem;
+  font-size: 1.08rem;
+  line-height: 1.25;
+  margin: 1.3rem 0 0.45rem;
 }
 
 .md-typeset p,
 .md-typeset li {
-  font-size: 0.98rem;
-  line-height: 1.74;
+  font-size: 0.84rem;
+  line-height: 1.7;
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+  font-size: 0.82rem;
 }
 
 .page-lead,
@@ -438,37 +496,44 @@ body {
   border-bottom-color: var(--scnf-border);
 }
 
-@media screen and (max-width: 76.1875em) {
-  .hero {
-    padding: 3rem 1.55rem 2.45rem;
-  }
-
-  .hero .hero-logo {
-    width: min(640px, 100%);
-  }
-
-  .hero h2 {
-    max-width: none;
-  }
-}
-
 @media screen and (max-width: 900px) {
-  .hero .hero-logo {
-    width: min(560px, 82%);
-    margin: -0.2rem 0 0.5rem 0;
+  .hero.landing {
+    padding-top: 0.7rem;
+    padding-bottom: 1.5rem;
   }
 
   .hero .hero-kicker {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .hero .hero-title {
-    font-size: clamp(2.2rem, 9vw, 3.2rem);
-    line-height: 1.04;
+    font-size: clamp(1.75rem, 7.4vw, 2.8rem);
+    line-height: 1.05;
   }
 
   .hero .hero-lead {
-    font-size: 1.05rem;
-    line-height: 1.7;
+    font-size: 0.94rem;
+    line-height: 1.64;
+  }
+}
+
+/* ===== Remove reserved space for sidebars on desktop ===== */
+@media screen and (min-width: 76.25em) {
+  .md-main__inner {
+    display: block;
+  }
+
+  .md-sidebar--primary,
+  .md-sidebar--secondary {
+    display: none;
+  }
+
+  .md-content {
+    margin-left: 0;
+    max-width: 100%;
+  }
+
+  .md-content__inner {
+    margin-left: 0;
   }
 }
