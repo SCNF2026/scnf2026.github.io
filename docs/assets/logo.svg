@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="navWaveGrad" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="24" y2="0">
+      <stop offset="0%" stop-color="#00BCD4" />
+      <stop offset="25%" stop-color="#2979FF" />
+      <stop offset="35%" stop-color="#D500F9" />
+      <stop offset="45%" stop-color="#FF1744" />
+      <stop offset="50%" stop-color="#FFEA00" />
+      <stop offset="55%" stop-color="#FF1744" />
+      <stop offset="65%" stop-color="#D500F9" />
+      <stop offset="75%" stop-color="#2979FF" />
+      <stop offset="100%" stop-color="#00BCD4" />
+    </linearGradient>
+  </defs>
+  <path d="M 2,13 C 4,13 5,18 7.5,18 L 8.5,6 L 15.5,18 L 16.5,6 C 19,6 20,13 22,13" fill="none" stroke="url(#navWaveGrad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10"/>
+</svg>
