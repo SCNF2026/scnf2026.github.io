@@ -4,6 +4,13 @@ site_url: "https://scnf2026.github.io/"
 
 extra:
   generator: false
+  social:
+    - icon: fontawesome/solid/envelope
+      link: mailto:scnf2026@gmail.com
+
+copyright: >-
+  Supported by <a href="https://www.jst.go.jp/presto/en/" target="_blank" rel="noopener">JST PRESTO</a>
+  "Complex Flow" project &nbsp;|&nbsp; &copy; 2026 SCNF 2026 Organizing Committee
 
 theme:
   name: material
@@ -37,6 +44,7 @@ theme:
 
 plugins:
   - search
+  - meta
 
 markdown_extensions:
   - admonition
@@ -59,9 +67,7 @@ extra_css:
 
 nav:
   - Home: index.md
-  - About: about.md
   - Program: program.md
-  - Venue & Practical Info: venue.md
   - Organizers: organizers.md
   - Participants: participants.md
-  - Contact: contact.md
+  - Venue & Contact: venue.md

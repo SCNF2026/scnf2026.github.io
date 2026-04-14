@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{ page.title }} - SCNF 2026" />
+  <meta property="og:description" content="{{ config.site_description }}" />
+  <meta property="og:url" content="{{ page.canonical_url }}" />
+  <meta property="og:site_name" content="SCNF 2026" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="{{ page.title }} - SCNF 2026" />
+  <meta name="twitter:description" content="{{ config.site_description }}" />
+{% endblock %}

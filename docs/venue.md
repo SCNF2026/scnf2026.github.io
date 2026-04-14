@@ -3,29 +3,32 @@ hide:
   - toc
 ---
 
-# Venue & Practical Information
+# Venue
 
-<p class="page-lead">The workshop is planned for Japan, with Tokyo as the preferred location and Kyoto as an alternative under consideration. Final practical details will be posted here once the venue is confirmed.</p>
+<p class="page-lead">Venue information will be posted here once confirmed.</p>
 
 ## Dates
 
 <div class="info-grid" markdown>
 <section class="info-card" markdown>
-## Dates
 **Tue–Fri, 8–11 Dec 2026**
 </section>
 </div>
 
 ## Venue status
 
-<!--Tokyo is currently the first choice because of international accessibility and the expected availability of suitable facilities. Kyoto remains an attractive alternative and will be retained until the final venue decision is made.
--->
-
 ## Practical information
 
-The following information will be added here once the venue is finalized:
+Practical information will be added later.
 
-- venue address and local access guidance,
-- accommodation,
-<!--- visa-letter information where relevant,-->
-- local schedule notes for invited participants.
+<br><br>
+
+# Contact
+
+<p class="page-lead">For workshop inquiries, please contact the organizers using the address below.</p>
+
+<div class="info-grid" markdown>
+<section class="info-card" markdown>
+`scnf2026 [at] gmail.com`
+
+When writing, it is helpful to include your name, affiliation, and the nature of your inquiry.
