@@ -7,6 +7,9 @@ extra:
   social:
     - icon: fontawesome/solid/envelope
       link: mailto:scnf2026@gmail.com
+  analytics:
+    provider: google
+    property: G-P7TR24EMWB
 
 copyright: >-
   Supported by <a href="https://www.jst.go.jp/presto/en/" target="_blank" rel="noopener">JST PRESTO</a>
@@ -71,8 +74,3 @@ nav:
   - Organizers: organizers.md
   - Participants: participants.md
   - Venue & Contact: venue.md
-
-extra:
-  analytics:
-    provider: google
-    property: G-P7TR24EMWB
