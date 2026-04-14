@@ -71,3 +71,8 @@ nav:
   - Organizers: organizers.md
   - Participants: participants.md
   - Venue & Contact: venue.md
+
+extra:
+  analytics:
+    provider: google
+    property: G-P7TR24EMWB
