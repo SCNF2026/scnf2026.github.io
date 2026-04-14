@@ -29,8 +29,3 @@ Recommended organization-site setup:
 - Repository: `scnf2026.github.io`
 
 Once the repository is public, set **Settings → Pages → Source** to **GitHub Actions**.
-
-
-## Beginner deployment guide
-
-See `GITHUB_PAGES_BEGINNER_GUIDE.md` for a step-by-step GitHub Pages workflow aimed at first-time GitHub users.
