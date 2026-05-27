@@ -36,7 +36,8 @@ hide:
 
 <div class="fact" markdown>
 <span>Venue</span>
-<strong>Tokyo or Kyoto/Osaka area, Japan</strong>
+<strong>Kyoto Research Park (Kyoto, Japan)</strong>
+<a href="https://www.kyotoresearchpark.jp/en/access/">Access</a>
 </div>
 
 <div class="fact" markdown>

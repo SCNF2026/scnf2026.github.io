@@ -5,7 +5,8 @@ hide:
 
 # Venue
 
-<p class="page-lead">Venue information will be posted here once confirmed.</p>
+<p class="page-lead">Kyoto Research Park (Kyoto, Japan)</p>
+(<a href="https://www.kyotoresearchpark.jp/en/access/">Access</a>)
 
 ## Dates
 
