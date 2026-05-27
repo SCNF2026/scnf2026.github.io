@@ -37,7 +37,7 @@ hide:
 <div class="fact" markdown>
 <span>Venue</span>
 <strong>Kyoto Research Park (Kyoto, Japan)</strong>
-<a href="https://www.kyotoresearchpark.jp/en/access/">Access</a>
+ (<a href="https://www.krp.co.jp/english/access_to_krp/">Access</a>)
 </div>
 
 <div class="fact" markdown>
