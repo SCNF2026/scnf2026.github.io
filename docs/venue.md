@@ -13,7 +13,7 @@ hide:
 </section>
 </div>
 
-## Venue status
+## Venue
 
 <p class="page-lead">Kyoto Research Park (Kyoto, Japan)</p>
 (<a href="https://www.krp.co.jp/english/access_to_krp/">Access</a>)
