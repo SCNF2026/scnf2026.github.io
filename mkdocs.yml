@@ -4,19 +4,36 @@ site_url: "https://scnf2026.github.io/"
 
 extra:
   generator: false
-  social:
-    - icon: fontawesome/solid/envelope
-      link: mailto:scnf2026@gmail.com
   analytics:
     provider: google
     property: G-P7TR24EMWB
+  consent:
+    title: Cookie consent
+    description: >-
+      We use Google Analytics to understand how this website is used.
+      You can accept or reject analytics cookies.
+    cookies:
+      analytics:
+        name: Google Analytics
+        checked: false
+    actions:
+      - accept
+      - reject
+      - manage
 
 copyright: >-
-  Supported by <a href="https://www.jst.go.jp/presto/en/" target="_blank" rel="noopener">JST PRESTO</a>
-  "Complex Flow" project &nbsp;|&nbsp; &copy; 2026 SCNF 2026 Organizing Committee
+  <span class="scnf-footer-copy">
+    Supported by <a href="https://www.jst.go.jp/kisoken/presto/en/" target="_blank" rel="noopener">JST PRESTO</a>
+    "Complex Flow" project &nbsp;|&nbsp; &copy; 2026 SCNF 2026 Organizing Committee
+  </span>
+  <nav class="scnf-footer-actions" aria-label="Footer links">
+    <a class="scnf-footer-action" href="#__consent">Cookie settings</a>
+    <a class="scnf-footer-action" href="mailto:scnf2026@gmail.com">Email organizers</a>
+  </nav>
 
 theme:
   name: material
+  custom_dir: overrides
   language: en
   logo: assets/logo-hero.svg
   favicon: assets/favicon.png
@@ -66,7 +83,7 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra_css:
-  - stylesheets/extra.css
+  - "stylesheets/extra.css?v=20260903-v15"
 
 nav:
   - Home: index.md

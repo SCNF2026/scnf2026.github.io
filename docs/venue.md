@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# Venue & Access
+# Venue & Contact
 
 ## Dates
 
@@ -47,17 +47,65 @@ The following routes are intended as practical guidance for invited participants
 
 The most direct public-transport options from KIX to Kyoto Station are:
 
-| Route                                                         | Approximate travel time | Notes                                                                                                                                                                                                                      |
-| ------------------------------------------------------------- | ----------------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| JR Kansai Airport Limited Express **HARUKA** to Kyoto Station |            about 80 min | Convenient if you prefer train travel. See the <a href="https://www.westjr.co.jp/travel-information/en/train-usage-guide/howto/guide/" target="_blank" rel="noopener">JR-WEST guide from Kansai International Airport</a>. |
-| Airport limousine bus to Kyoto Station Hachijo-guchi          |         about 85–90 min | Convenient if you have large luggage. See the <a href="https://www.kate.co.jp/en/timetable/detail/KY" target="_blank" rel="noopener">KIX–Kyoto limousine bus timetable</a>.                                                |
+<ul class="travel-options">
+  <li class="travel-option">
+    <h4 class="travel-option__route">JR Kansai Airport Limited Express <strong>HARUKA</strong> to Kyoto Station</h4>
+    <dl class="travel-option__details">
+      <div>
+        <dt>Approximate travel time</dt>
+        <dd>About 80 min</dd>
+      </div>
+      <div>
+        <dt>Notes</dt>
+        <dd>Convenient if you prefer train travel. See the <a href="https://www.westjr.co.jp/travel-information/en/train-usage-guide/howto/guide/" target="_blank" rel="noopener">JR-WEST guide from Kansai International Airport</a>.</dd>
+      </div>
+    </dl>
+  </li>
+  <li class="travel-option">
+    <h4 class="travel-option__route">Airport limousine bus to Kyoto Station Hachijo-guchi</h4>
+    <dl class="travel-option__details">
+      <div>
+        <dt>Approximate travel time</dt>
+        <dd>About 85–90 min</dd>
+      </div>
+      <div>
+        <dt>Notes</dt>
+        <dd>Convenient if you have large luggage. See the <a href="https://www.kate.co.jp/en/timetable/detail/KY" target="_blank" rel="noopener">KIX–Kyoto limousine bus timetable</a>.</dd>
+      </div>
+    </dl>
+  </li>
+</ul>
 
 ### From Kyoto Station to KRP
 
-| Route                                                        |               Approximate travel time | Notes                                                                                            |
-| ------------------------------------------------------------ | ------------------------------------: | ------------------------------------------------------------------------------------------------ |
-| JR Sagano / San-in Line to **Tambaguchi Station**, then walk | train: about 4 min; walk: about 4 min | Please take a local train from Kyoto Station and get off at the second stop, Tambaguchi Station. |
-| Taxi from Kyoto Station to KRP                               |                          about 10 min | This may be the easiest option if you are carrying luggage.                                      |
+<ul class="travel-options">
+  <li class="travel-option">
+    <h4 class="travel-option__route">JR Sagano / San-in Line to <strong>Tambaguchi Station</strong>, then walk</h4>
+    <dl class="travel-option__details">
+      <div>
+        <dt>Approximate travel time</dt>
+        <dd>Train: about 4 min; walk: about 4 min</dd>
+      </div>
+      <div>
+        <dt>Notes</dt>
+        <dd>Please take a local train from Kyoto Station and get off at the second stop, Tambaguchi Station.</dd>
+      </div>
+    </dl>
+  </li>
+  <li class="travel-option">
+    <h4 class="travel-option__route">Taxi from Kyoto Station to KRP</h4>
+    <dl class="travel-option__details">
+      <div>
+        <dt>Approximate travel time</dt>
+        <dd>About 10 min</dd>
+      </div>
+      <div>
+        <dt>Notes</dt>
+        <dd>This may be the easiest option if you are carrying luggage.</dd>
+      </div>
+    </dl>
+  </li>
+</ul>
 
 ### If arriving via Tokyo / Haneda Airport (HND)
 
@@ -120,15 +168,13 @@ The hotel is located in the Umekoji area, near Umekoji Park and just west of Kyo
 
 Accommodation details will be confirmed separately through a logistics form for invited participants, including arrival and departure dates and any individual accommodation needs. Please wait for further instructions before making workshop-related hotel arrangements.
 
-<br><br>
-
-# Contact
+## Contact
 
 <p class="page-lead">For workshop inquiries, please contact the organizers using the address below.</p>
 
 <div class="info-grid" markdown>
 <section class="info-card" markdown>
-`scnf2026 [at] gmail.com`
+[scnf2026@gmail.com](mailto:scnf2026@gmail.com)
 
 When writing, it is helpful to include your name, affiliation, and the nature of your inquiry.
 

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  {% if page %}
+    {% set social_title = config.site_name if page.is_homepage else page.title ~ " - " ~ config.site_name %}
+    {% set social_description = page.meta.description if page.meta and page.meta.description else config.site_description %}
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ social_title | striptags | e }}" />
+    <meta property="og:description" content="{{ social_description | striptags | e }}" />
+    <meta property="og:url" content="{{ page.canonical_url }}" />
+    <meta property="og:site_name" content="{{ config.site_name | e }}" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{{ social_title | striptags | e }}" />
+    <meta name="twitter:description" content="{{ social_description | striptags | e }}" />
+  {% endif %}
+{% endblock %}

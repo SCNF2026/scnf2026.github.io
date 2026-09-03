@@ -24,10 +24,6 @@ hide:
   </span>
 </h1>
 
-<p class="hero-lead">
-    SCNF 2026 is an invitation-only workshop on structure and closure in nonequilibrium flows beyond the classical Navier–Stokes–Fourier regime. It brings together <strong>Rational Extended Thermodynamics (RET)</strong>, <strong>GENERIC</strong>, <strong>kinetic theory</strong>, and <strong>moment methods</strong> to compare structural principles across frameworks, while also exploring interfaces with <strong>statistical physics</strong>, <strong>fluctuating hydrodynamics</strong> and <strong>multiphase flow modelling</strong>.
-</p>
-
 <div class="keyfacts" markdown>
 <div class="fact" markdown>
 <span>Dates</span>
@@ -37,7 +33,7 @@ hide:
 <div class="fact" markdown>
 <span>Venue</span>
 <strong>Kyoto Research Park (Kyoto, Japan)</strong>
- (<a href="https://www.krp.co.jp/english/access_to_krp/">Access</a>)
+<small><a href="https://www.krp.co.jp/english/access_to_krp/">Access</a></small>
 </div>
 
 <div class="fact" markdown>
@@ -45,6 +41,10 @@ hide:
 <strong>By invitation</strong>
 </div>
 </div>
+
+<p class="hero-lead">
+    SCNF 2026 is an invitation-only workshop bringing together <strong>RET</strong>, <strong>GENERIC</strong>, <strong>kinetic theory</strong>, and <strong>moment methods</strong> to compare structure and closure beyond the classical Navier–Stokes–Fourier regime.
+</p>
 
 </div>
 
