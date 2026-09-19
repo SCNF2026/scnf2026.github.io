@@ -1,182 +1,137 @@
 ---
+description: "Plan your visit to SCNF 2026: Kyoto Research Park, the workshop hotel, local travel, airport connections and organizer contact information."
 hide:
   - toc
 ---
 
-# Venue & Contact
+# Venue & Travel { #venue-contact }
 
-## Dates
+<p class="page-lead"><span id="dates">8–11 December 2026</span> · Kyoto Research Park, Kyoto, Japan</p>
 
-<div class="info-grid" markdown>
-<section class="info-card" markdown>
-**Tue–Fri, 8–11 Dec 2026**
-</section>
+<nav class="scnf-jump-links" aria-label="Travel guide sections" markdown>
+[Local route](#local-route)
+[Venue](#venue)
+[Hotel](#official-workshop-hotel)
+[Airports](#access-to-kyoto-and-krp)
+[Contact](#contact)
+</nav>
+
+## Station, hotel and venue { #local-route }
+
+Kyoto Station, the workshop hotel and KRP are connected by the **JR Sagano / San-in Line**. Use a **local train** for Umekoji-Kyotonishi and Tambaguchi.
+
+<div class="scnf-route" role="group" aria-label="Station order from Kyoto towards KRP">
+  <p class="scnf-route__caption">JR Sagano Line · station order, not to scale</p>
+  <ol class="scnf-route__stops">
+    <li><span class="scnf-route__number" aria-hidden="true">01</span><strong>Kyoto Station</strong><span>Airport trains &amp; Shinkansen</span></li>
+    <li><span class="scnf-route__number" aria-hidden="true">02</span><strong>Umekoji-Kyotonishi</strong><span>Hotel: about 1 minute on foot</span></li>
+    <li><span class="scnf-route__number" aria-hidden="true">03</span><strong>Tambaguchi</strong><span>KRP: about 4 minutes on foot</span></li>
+  </ol>
 </div>
+
+**From the hotel to KRP:** walk to Umekoji-Kyotonishi Station, take a local train one stop towards Saga-Arashiyama to Tambaguchi, then walk to KRP. Allow extra time for waiting and finding the meeting room.
+
+[KRP access information](https://www.krp.co.jp/english/access_to_krp/) · [Hotel access information](https://www.royalparkhotels.co.jp/en/the/kyotoumekoji/about/access/)
 
 ## Venue
 
-<p class="page-lead">Kyoto Research Park (KRP), Kyoto, Japan</p>
-
 <div class="info-grid" markdown>
 <section class="info-card" markdown>
-**Workshop venue**
-Kyoto Research Park (KRP)
+### Kyoto Research Park
+
 Kyoto, Japan
 
-<a href="https://www.krp.co.jp/english/access_to_krp/" target="_blank" rel="noopener">Official access information</a>
+KRP has several buildings. Meeting-room details will be provided by the organizers closer to the workshop.
 
+[Official access information](https://www.krp.co.jp/english/access_to_krp/) · [Find KRP on a map](https://www.google.com/maps/search/?api=1&query=Kyoto+Research+Park)
 </section>
 
 <section class="info-card" markdown>
-**Nearest station**
-Tambaguchi Station
-JR Sagano / San-in Line
+### From Kyoto Station to KRP { #from-kyoto-station-to-krp }
 
-From JR Kyoto Station, Tambaguchi Station is the second stop by local train. KRP is a short walk from Tambaguchi Station.
+**Train + walk:** take a local JR Sagano Line train to Tambaguchi, the second stop. The train ride is about 4 minutes, followed by about a 4-minute walk to KRP.
 
+**Taxi:** about 10 minutes from Kyoto Station, depending on traffic. Show the driver your meeting-building details when available.
 </section>
 </div>
-
-Room details and the final timetable will be announced to registered participants closer to the workshop.
-
-## Access to Kyoto and KRP
-
-The following routes are intended as practical guidance for invited participants. Please check the latest timetables and fares before travelling.
-
-### From Kansai International Airport (KIX)
-
-The most direct public-transport options from KIX to Kyoto Station are:
-
-<ul class="travel-options">
-  <li class="travel-option">
-    <h4 class="travel-option__route">JR Kansai Airport Limited Express <strong>HARUKA</strong> to Kyoto Station</h4>
-    <dl class="travel-option__details">
-      <div>
-        <dt>Approximate travel time</dt>
-        <dd>About 80 min</dd>
-      </div>
-      <div>
-        <dt>Notes</dt>
-        <dd>Convenient if you prefer train travel. See the <a href="https://www.westjr.co.jp/travel-information/en/train-usage-guide/howto/guide/" target="_blank" rel="noopener">JR-WEST guide from Kansai International Airport</a>.</dd>
-      </div>
-    </dl>
-  </li>
-  <li class="travel-option">
-    <h4 class="travel-option__route">Airport limousine bus to Kyoto Station Hachijo-guchi</h4>
-    <dl class="travel-option__details">
-      <div>
-        <dt>Approximate travel time</dt>
-        <dd>About 85–90 min</dd>
-      </div>
-      <div>
-        <dt>Notes</dt>
-        <dd>Convenient if you have large luggage. See the <a href="https://www.kate.co.jp/en/timetable/detail/KY" target="_blank" rel="noopener">KIX–Kyoto limousine bus timetable</a>.</dd>
-      </div>
-    </dl>
-  </li>
-</ul>
-
-### From Kyoto Station to KRP
-
-<ul class="travel-options">
-  <li class="travel-option">
-    <h4 class="travel-option__route">JR Sagano / San-in Line to <strong>Tambaguchi Station</strong>, then walk</h4>
-    <dl class="travel-option__details">
-      <div>
-        <dt>Approximate travel time</dt>
-        <dd>Train: about 4 min; walk: about 4 min</dd>
-      </div>
-      <div>
-        <dt>Notes</dt>
-        <dd>Please take a local train from Kyoto Station and get off at the second stop, Tambaguchi Station.</dd>
-      </div>
-    </dl>
-  </li>
-  <li class="travel-option">
-    <h4 class="travel-option__route">Taxi from Kyoto Station to KRP</h4>
-    <dl class="travel-option__details">
-      <div>
-        <dt>Approximate travel time</dt>
-        <dd>About 10 min</dd>
-      </div>
-      <div>
-        <dt>Notes</dt>
-        <dd>This may be the easiest option if you are carrying luggage.</dd>
-      </div>
-    </dl>
-  </li>
-</ul>
-
-### If arriving via Tokyo / Haneda Airport (HND)
-
-A standard route is:
-
-**Haneda Airport → Shinagawa Station or Tokyo Station → Kyoto Station → Tambaguchi Station / KRP**
-
-From Haneda Airport, you can reach Shinagawa Station by the Keikyu Line or Hamamatsucho Station by Tokyo Monorail, and then transfer to JR lines. From Tokyo or Shinagawa, take the Tokaido Shinkansen to Kyoto. The Shinkansen from Tokyo to Kyoto takes about 130 minutes on the fastest services.
-
-Depending on your international itinerary, a domestic flight connection from Haneda to Osaka/Itami (ITM) may also be convenient.
-
-Useful links:
-
-- <a href="https://www.japan.travel/en/plan/airport-access/haneda-airport/" target="_blank" rel="noopener">Haneda Airport access information</a>
-- <a href="https://global.jr-central.co.jp/en/onlinebooking/contents/kyoto/" target="_blank" rel="noopener">Kyoto by Tokaido Shinkansen</a>
-
-### If arriving via Tokyo / Narita Airport (NRT)
-
-A standard route is:
-
-**Narita Airport → Tokyo Station → Kyoto Station → Tambaguchi Station / KRP**
-
-The Narita Express (N'EX) connects Narita Airport with Tokyo Station. From Tokyo Station, take the Tokaido Shinkansen to Kyoto. This route is straightforward but usually longer than arriving directly in the Kansai area.
-
-Depending on your international itinerary, a domestic flight connection from Narita to Osaka/Itami (ITM) may also be convenient.
-
-Useful links:
-
-- <a href="https://www.japan.travel/en/plan/airport-access/narita-airport/" target="_blank" rel="noopener">Narita Airport access information</a>
-- <a href="https://global.jr-central.co.jp/en/onlinebooking/contents/kyoto/" target="_blank" rel="noopener">Kyoto by Tokaido Shinkansen</a>
 
 ## Official workshop hotel
 
-<p class="page-lead">The Royal Park Hotel Kyoto Umekoji</p>
-
 <div class="info-grid" markdown>
 <section class="info-card" markdown>
-**Official workshop hotel**
-The Royal Park Hotel Kyoto Umekoji
-9-3 Kankiji-cho, Shimogyo-ku, Kyoto
+### The Royal Park Hotel Kyoto Umekoji
 
-A room block has been arranged by the organizers for the workshop.
+9-3 Kankiji-cho, Shimogyo-ku, Kyoto 600-8835
 
-<a href="https://www.royalparkhotels.co.jp/en/the/kyotoumekoji/" target="_blank" rel="noopener">Hotel website</a>
-<a href="https://www.royalparkhotels.co.jp/en/the/kyotoumekoji/about/access/" target="_blank" rel="noopener">Hotel access information</a>
+About a 1-minute walk from Umekoji-Kyotonishi Station, one stop from Kyoto Station on a local JR Sagano Line train.
 
+[Hotel website](https://www.royalparkhotels.co.jp/en/the/kyotoumekoji/) · [Hotel access & map](https://www.royalparkhotels.co.jp/en/the/kyotoumekoji/about/access/)
 </section>
 
 <section class="info-card" markdown>
-**Location**
-Umekoji-Kyotonishi Station
-JR Sagano / San-in Line
+### Accommodation arrangements
 
-The hotel is about a 1-minute walk from Umekoji-Kyotonishi Station, which is one stop from Kyoto Station. It is also one stop from Tambaguchi Station, the nearest station to KRP.
+Please follow the organizers' instructions before making workshop-related hotel bookings. Individual dates and accommodation arrangements will be confirmed separately.
 
+For questions about your arrangements, [contact the organizers](#contact).
 </section>
 </div>
 
-The hotel is located in the Umekoji area, near Umekoji Park and just west of Kyoto Station. It offers convenient access both to Kyoto Station and to the workshop venue: Kyoto Station → Umekoji-Kyotonishi Station → Tambaguchi Station are consecutive stops on the JR Sagano / San-in Line.
+## Access to Kyoto and KRP
 
-Accommodation details will be confirmed separately through a logistics form for invited participants, including arrival and departure dates and any individual accommodation needs. Please wait for further instructions before making workshop-related hotel arrangements.
+Travel times below are approximate and exclude immigration, baggage collection and connection waiting times. Check the operators' timetables for your travel dates.
+
+### From Kansai International Airport (KIX)
+
+Travel to **Kyoto Station**, then follow the local route above to your hotel or KRP.
+
+<ul class="travel-options">
+  <li class="travel-option">
+    <h4 class="travel-option__route">JR Limited Express HARUKA</h4>
+    <dl class="travel-option__details">
+      <div><dt>To Kyoto Station</dt><dd>About 80 minutes by train</dd></div>
+      <div><dt>Plan your journey</dt><dd>Direct rail connection from Kansai Airport Station. <a href="https://www.westjr.co.jp/travel-information/en/train-usage-guide/howto/guide/">JR-WEST airport guide</a></dd></div>
+    </dl>
+  </li>
+  <li class="travel-option">
+    <h4 class="travel-option__route">Airport limousine bus</h4>
+    <dl class="travel-option__details">
+      <div><dt>To Kyoto Station</dt><dd>About 90 minutes; varies by terminal and traffic</dd></div>
+      <div><dt>Plan your journey</dt><dd>Arrives at the Hachijo-guchi side of Kyoto Station. Check your terminal's departure time. <a href="https://www.kate.co.jp/en/timetable/detail/KY">KIX–Kyoto timetable</a></dd></div>
+    </dl>
+  </li>
+</ul>
+
+<details class="scnf-travel-detail" markdown>
+<summary>Arriving via Tokyo / Haneda Airport (HND)</summary>
+
+### If arriving via Tokyo / Haneda Airport (HND)
+
+**Haneda → Shinagawa → Kyoto Station → hotel or KRP**
+
+Take the Keikyu Line to Shinagawa, then the Tokaido Shinkansen to Kyoto. Another option is the Tokyo Monorail to Hamamatsucho, followed by a JR connection to a Shinkansen station. Allow time for airport procedures and transfers when choosing your train.
+
+[Haneda airport access (JNTO)](https://www.japan.travel/en/plan/airport-access/haneda-airport/) · [Kyoto by Shinkansen (JR Central)](https://global.jr-central.co.jp/en/onlinebooking/contents/kyoto/)
+</details>
+
+<details class="scnf-travel-detail" markdown>
+<summary>Arriving via Tokyo / Narita Airport (NRT)</summary>
+
+### If arriving via Tokyo / Narita Airport (NRT)
+
+**Narita → Tokyo Station → Kyoto Station → hotel or KRP**
+
+Take the Narita Express to Tokyo Station, then the Tokaido Shinkansen to Kyoto. Allow time for airport procedures and transfers; the full journey is substantially longer than the Shinkansen ride alone.
+
+[Narita airport access (JNTO)](https://www.japan.travel/en/plan/airport-access/narita-airport/) · [Kyoto by Shinkansen (JR Central)](https://global.jr-central.co.jp/en/onlinebooking/contents/kyoto/)
+</details>
+
+## During your stay
+
+For a short walk near the hotel or an outing before or after the workshop, see [Explore Kyoto](explore-kyoto.md). Its suggestions are for independent visits.
 
 ## Contact
 
-<p class="page-lead">For workshop inquiries, please contact the organizers using the address below.</p>
+For workshop, participation or accommodation enquiries, email **[scnf2026@gmail.com](mailto:scnf2026@gmail.com)**. Please include your name, affiliation and the subject of your enquiry.
 
-<div class="info-grid" markdown>
-<section class="info-card" markdown>
-[scnf2026@gmail.com](mailto:scnf2026@gmail.com)
-
-When writing, it is helpful to include your name, affiliation, and the nature of your inquiry.
-
-</section>
-</div>
+<p class="scnf-reviewed">Transport and location information checked against official sources on <time datetime="2026-09-19">19 September 2026</time>. Timetables and conditions may change.</p>

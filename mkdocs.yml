@@ -1,5 +1,5 @@
 site_name: "SCNF 2026"
-site_description: "Structure and Closure in Nonequilibrium Flows (SCNF) 2026"
+site_description: "SCNF 2026 — Structure and Closure in Nonequilibrium Flows. 8–11 December 2026, Kyoto Research Park, Japan."
 site_url: "https://scnf2026.github.io/"
 
 extra:
@@ -55,6 +55,7 @@ theme:
         name: Switch to light mode
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.top
     - navigation.instant
     - navigation.instant.progress
@@ -83,11 +84,12 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra_css:
-  - "stylesheets/extra.css?v=20260903-v15"
+  - "stylesheets/extra.css?v=20260919-v03"
 
 nav:
   - Home: index.md
   - Program: program.md
-  - Organizers: organizers.md
   - Participants: participants.md
-  - Venue & Contact: venue.md
+  - Venue & Travel: venue.md
+  - Explore Kyoto: explore-kyoto.md
+  - Organizers: organizers.md

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" width="640" height="320">
+  <defs>
+    <linearGradient id="sky" x2="1" y2="1">
+      <stop stop-color="#eaf6f6"/>
+      <stop offset="1" stop-color="#f0f0fa"/>
+    </linearGradient>
+    <linearGradient id="flow">
+      <stop stop-color="#138c9b"/>
+      <stop offset="1" stop-color="#426bac"/>
+    </linearGradient>
+  </defs>
+  <!-- Original decorative illustration; not a map or a depiction of a specific site. -->
+  <rect width="640" height="320" rx="22" fill="url(#sky)"/>
+  <circle cx="486" cy="74" r="31" fill="#d7b487" opacity=".55"/>
+  <path d="M0 170 65 140 117 157 203 91 272 132 355 107 433 153 512 118 640 175V320H0Z" fill="#bed2d8" opacity=".4"/>
+  <path d="M0 206 106 162 185 191 283 147 353 185 444 153 553 190 640 167V320H0Z" fill="#a5bcc9" opacity=".28"/>
+  <g fill="#edf3f5" stroke="#496774" stroke-width="2" stroke-linejoin="round">
+    <path d="M75 212h122v58H75zM58 212l36-32h83l37 32Z"/>
+    <path d="M214 230h127v40H214zM197 230l37-28h87l37 28Z"/>
+    <path d="M348 214h73v56h-73zM334 214l33-25h36l33 25Z"/>
+    <path d="M475 179h51v91h-51z"/>
+    <path d="M462 179q23-4 38-19 16 15 39 19ZM468 156q20-4 32-17 13 13 33 17ZM474 133q16-4 26-15 11 11 27 15Z"/>
+    <path d="M491 133v6m18-6v6m-22 17v7m27-7v7m-14-46V92" fill="none"/>
+    <path d="M97 225v45m15-45v45m15-45v45m15-45v45m15-45v45m15-45v45M234 240v30m17-30v30m17-30v30m17-30v30m17-30v30m17-30v30M365 227v43m18-43v43m18-43v43M490 200v70m20-70v70" stroke-width="1"/>
+  </g>
+  <g fill="none" stroke="url(#flow)" stroke-width="1.5" opacity=".7">
+    <path d="M26 287c89-13 116 18 212 3s118-20 205-7 119 17 172-2"/>
+    <path d="M39 298c88-13 113 18 205 3s115-20 202-7 111 17 155-2"/>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+{# Keep Material's component hook so instant navigation updates the current page. #}
+<nav class="scnf-page-nav" aria-label="Main navigation" data-md-component="tabs">
+  <ul class="scnf-page-nav__list md-grid">
+    {% for nav_item in nav.items %}
+      <li>
+        <a class="scnf-page-nav__link" href="{{ nav_item.url | url }}"{% if nav_item.active %} aria-current="page"{% endif %}>
+          {{ nav_item.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
