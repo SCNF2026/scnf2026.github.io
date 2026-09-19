@@ -98,7 +98,7 @@ Quiet streets, temple courtyards and a museum of railway engineering. Start with
 
 [Explore Kyoto](explore-kyoto.md){ .md-button }
 </div>
-<img class="kyoto-feature__art" src="assets/kyoto-lines.svg" alt="" width="640" height="320" loading="lazy">
+<img class="kyoto-feature__art" src="assets/kyoto-lines.svg?v=20260919-v04" alt="" width="640" height="320" loading="lazy">
 </section>
 
 ## Organizers and advisors
