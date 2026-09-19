@@ -149,16 +149,41 @@ body {
 
 @media screen and (max-width: 43.75em) {
   :root {
-    --scnf-anchor-offset: 10rem;
+    --scnf-anchor-offset: 9rem;
+  }
+
+  .md-header__inner {
+    min-height: 2.4rem;
+  }
+
+  .md-header__button {
+    margin-block: 0.1rem;
+  }
+
+  .md-header .md-header__button.md-logo {
+    display: flex;
+    align-items: center;
+    min-height: 2.2rem;
+    margin-block: 0.1rem;
+    padding-block: 0.1rem;
+  }
+
+  .md-header .md-header__button.md-logo img {
+    width: min(7rem, 38vw);
+  }
+
+  .scnf-page-nav {
+    padding-block: 0.1rem 0.2rem;
   }
 
   .scnf-page-nav__list {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 0.15rem 0.3rem;
+    gap: 0.1rem 0.3rem;
     padding: 0 0.6rem;
   }
 
   .scnf-page-nav__link {
+    padding-block: 0.25rem;
     font-size: 0.7rem;
   }
 }
@@ -475,6 +500,53 @@ body {
   font-size: 0.95rem;
   line-height: 1.25;
   margin: 1.3rem 0 0.45rem;
+}
+
+/* Home headings retain their IDs without a visible or space-taking ¶ link. */
+.md-typeset .no-permalink > .headerlink {
+  display: none;
+}
+
+.scnf-committee-summary {
+  max-width: 58rem;
+}
+
+.md-typeset .scnf-committee-summary dl {
+  margin: 0;
+}
+
+.scnf-committee-summary dl > div {
+  display: grid;
+  grid-template-columns: 9rem minmax(0, 1fr);
+  gap: 0.25rem 1rem;
+  padding-block: 0.65rem;
+  border-top: 1px solid var(--scnf-border);
+}
+
+.md-typeset .scnf-committee-summary dt {
+  margin: 0;
+  color: var(--scnf-muted);
+  font-size: 0.7rem;
+  font-weight: 650;
+}
+
+.md-typeset .scnf-committee-summary dd {
+  margin: 0;
+}
+
+.scnf-committee-summary dd > span {
+  white-space: nowrap;
+}
+
+.md-typeset .scnf-committee-summary > p {
+  margin: 0.15rem 0 0;
+}
+
+.scnf-committee-summary__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  min-height: 2.2rem;
 }
 
 .md-typeset p,
@@ -1084,6 +1156,10 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+  .scnf-committee-summary dl > div {
+    grid-template-columns: 1fr;
+  }
+
   .md-header__button.md-logo img {
     width: min(8.4rem, 38vw);
   }

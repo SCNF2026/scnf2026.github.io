@@ -8,7 +8,7 @@ hide:
 
 <p class="hero-kicker">International workshop · Kyoto, Japan · 2026</p>
 
-<h1 class="hero-title">
+<h1 class="hero-title no-permalink">
   <span class="hero-word">
     <span class="hero-initial hero-s">S</span>tructure and
   </span>
@@ -43,14 +43,14 @@ An international workshop comparing thermodynamic structures and closures beyond
 </div>
 
 <section class="scnf-update" aria-labelledby="latest-update" markdown>
-## Latest update { #latest-update }
+## Latest update { #latest-update .no-permalink }
 
 <time datetime="2026-09-19">19 September 2026</time>
 
 Discover the new [Explore Kyoto guide](explore-kyoto.md) and find your way between the station, hotel and venue in [Venue & Travel](venue.md).
 </section>
 
-## Motivation and scope
+## Motivation and scope { .no-permalink }
 
 Many flow regimes of current interest—shocks, rarefied gases, short-scale
 or high-frequency transport, and certain multiphase and fluctuating
@@ -63,26 +63,26 @@ SCNF 2026 connects **Rational Extended Thermodynamics (RET)**, **GENERIC**,
 **kinetic theory**, and **moment methods** to compare structural principles,
 identify shared open questions, and foster exchange across research communities.
 
-## Main themes
+## Main themes { .no-permalink }
 
 <div class="scnf-theme-grid" markdown>
 <section markdown>
-### Structure & closure
+### Structure & closure { .no-permalink }
 
 Beyond the classical Navier–Stokes–Fourier description.
 </section>
 <section markdown>
-### Consistency & stability
+### Consistency & stability { .no-permalink }
 
 Thermodynamic consistency, stability, and mathematical well-posedness.
 </section>
 <section markdown>
-### Connecting frameworks
+### Connecting frameworks { .no-permalink }
 
 Relations among RET, GENERIC, kinetic theory, and moment methods.
 </section>
 <section markdown>
-### Links across scales
+### Links across scales { .no-permalink }
 
 Interfaces with statistical physics, fluctuating hydrodynamics, multiphase flows, and molecular simulation.
 </section>
@@ -92,21 +92,30 @@ Interfaces with statistical physics, fluctuating hydrodynamics, multiphase flows
 <div class="kyoto-feature__copy" markdown>
 <p class="scnf-eyebrow">Beyond the workshop</p>
 
-## A little time in Kyoto { #discover-kyoto }
+## A little time in Kyoto { #discover-kyoto .no-permalink }
 
 Quiet streets, temple courtyards and a museum of railway engineering. Start with the neighbourhood around the hotel, or set aside time before or after the workshop to explore further.
 
 [Explore Kyoto](explore-kyoto.md){ .md-button }
 </div>
-<img class="kyoto-feature__art" src="assets/kyoto-lines.svg?v=20260919-v04" alt="" width="640" height="320" loading="lazy">
+<img class="kyoto-feature__art" src="assets/kyoto-lines.svg?v=20260919-v07" alt="" width="640" height="320" loading="lazy">
 </section>
 
-## Organizers and advisors
+## Organizers and advisors { .no-permalink }
 
-<div class="grid cards landing people-cards" markdown>
+<div class="scnf-committee-summary" markdown>
 
-Takashi Arima (Chair), Elvira Barbera, Francesca Brini, Shigeru Taniguchi
-— Advisors: Tommaso Ruggeri, Masaru Sugiyama
-[:octicons-arrow-right-24: Full details](organizers.md)
+<dl>
+  <div>
+    <dt>Organizing Committee</dt>
+    <dd><span>Takashi Arima (Chair)</span>, <span>Elvira Barbera</span>, <span>Francesca Brini</span>, <span>Shigeru Taniguchi</span></dd>
+  </div>
+  <div>
+    <dt>Advisors</dt>
+    <dd><span>Tommaso Ruggeri</span>, <span>Masaru Sugiyama</span></dd>
+  </div>
+</dl>
+
+[:octicons-arrow-right-24: Full details](organizers.md){ .scnf-committee-summary__link }
 
 </div>
