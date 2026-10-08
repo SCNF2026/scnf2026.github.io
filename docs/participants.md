@@ -23,8 +23,12 @@ hide:
       <p class="person-card__meta"><span class="person-card__affiliation">University of Parma</span> <small class="person-card__country">Italy</small></p>
     </li>
     <li class="person-card">
-      <h3 class="person-card__name">Fiammetta Conforto</h3>
-      <p class="person-card__meta"><span class="person-card__affiliation">University of Messina</span> <small class="person-card__country">Italy</small></p>
+      <h3 class="person-card__name">Zhenning Cai</h3>
+      <p class="person-card__meta"><span class="person-card__affiliation">National University of Singapore</span> <small class="person-card__country">Singapore</small></p>
+    </li>
+    <li class="person-card">
+      <h3 class="person-card__name">Michael Dumbser</h3>
+      <p class="person-card__meta"><span class="person-card__affiliation">University of Trento</span> <small class="person-card__country">Italy</small></p>
     </li>
     <li class="person-card">
       <h3 class="person-card__name">Marco Ellero</h3>
