@@ -29,7 +29,7 @@ hide:
 </dl>
 
 <p class="hero-lead">
-An international workshop comparing thermodynamic structures and closures beyond the classical Navier–Stokes–Fourier regime.
+An international workshop on nonequilibrium flows, connecting approaches and scales.
 </p>
 
 <nav class="scnf-actions" aria-label="Workshop essentials" markdown>
@@ -52,16 +52,14 @@ Discover the new [Explore Kyoto guide](explore-kyoto.md) and find your way betwe
 
 ## Motivation and scope { .no-permalink }
 
-Many flow regimes of current interest—shocks, rarefied gases, short-scale
-or high-frequency transport, and certain multiphase and fluctuating
-systems—lie beyond the classical Navier–Stokes–Fourier description.
-In such regimes, the choice of state variables, admissible closures, and
-the compatibility of thermodynamic structure with mathematical
-well-posedness become central issues.
+The workshop will bring together researchers studying nonequilibrium flows.
+Topics include Rational Extended Thermodynamics, GENERIC, SHTC, kinetic theory,
+moment methods, statistical physics, fluctuating hydrodynamics, molecular dynamics,
+and multiphase flows.
 
-SCNF 2026 connects **Rational Extended Thermodynamics (RET)**, **GENERIC**,
-**kinetic theory**, and **moment methods** to compare structural principles,
-identify shared open questions, and foster exchange across research communities.
+Discussions will address structure and closure, thermodynamic consistency and
+stability, mathematical well-posedness, structure-preserving numerical methods,
+and connections between approaches and across scales.
 
 ## Main themes { .no-permalink }
 
@@ -69,7 +67,7 @@ identify shared open questions, and foster exchange across research communities.
 <section markdown>
 ### Structure & closure { .no-permalink }
 
-Beyond the classical Navier–Stokes–Fourier description.
+State variables and closure relations for nonequilibrium flows, including regimes beyond the classical Navier–Stokes–Fourier description.
 </section>
 <section markdown>
 ### Consistency & stability { .no-permalink }
@@ -77,14 +75,14 @@ Beyond the classical Navier–Stokes–Fourier description.
 Thermodynamic consistency, stability, and mathematical well-posedness.
 </section>
 <section markdown>
-### Connecting frameworks { .no-permalink }
+### Structure-preserving numerics { .no-permalink }
 
-Relations among RET, GENERIC, kinetic theory, and moment methods.
+Numerical methods that preserve the structural properties of the underlying models.
 </section>
-<section markdown>
-### Links across scales { .no-permalink }
+<section id="connecting-frameworks" markdown>
+### Connecting approaches & scales { #links-across-scales .no-permalink }
 
-Interfaces with statistical physics, fluctuating hydrodynamics, multiphase flows, and molecular simulation.
+Connections between approaches and across microscopic, mesoscopic, and macroscopic scales.
 </section>
 </div>
 
