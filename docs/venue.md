@@ -83,7 +83,7 @@ Travel times below are approximate and exclude immigration, baggage collection a
 
 ### From Kansai International Airport (KIX)
 
-Travel to **Kyoto Station**, then follow the local route above to your hotel or KRP.
+Take the JR Limited Express HARUKA to **Kyoto Station**, then follow the local route above to your hotel or KRP.
 
 <ul class="travel-options">
   <li class="travel-option">
@@ -91,13 +91,6 @@ Travel to **Kyoto Station**, then follow the local route above to your hotel or 
     <dl class="travel-option__details">
       <div><dt>To Kyoto Station</dt><dd>About 80 minutes by train</dd></div>
       <div><dt>Plan your journey</dt><dd>Direct rail connection from Kansai Airport Station. <a href="https://www.westjr.co.jp/travel-information/en/train-usage-guide/howto/guide/">JR-WEST airport guide</a></dd></div>
-    </dl>
-  </li>
-  <li class="travel-option">
-    <h4 class="travel-option__route">Airport limousine bus</h4>
-    <dl class="travel-option__details">
-      <div><dt>To Kyoto Station</dt><dd>About 90 minutes; varies by terminal and traffic</dd></div>
-      <div><dt>Plan your journey</dt><dd>Arrives at the Hachijo-guchi side of Kyoto Station. Check your terminal's departure time. <a href="https://www.kate.co.jp/en/timetable/detail/KY">KIX–Kyoto timetable</a></dd></div>
     </dl>
   </li>
 </ul>

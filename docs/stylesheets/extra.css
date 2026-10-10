@@ -92,7 +92,7 @@ body {
   font-size: 0.9rem;
 }
 
-/* All six destinations stay visible, including below Material's drawer breakpoint. */
+/* All destinations stay visible, including below Material's drawer breakpoint. */
 .md-header__button[for="__drawer"] {
   display: none;
 }
@@ -488,6 +488,30 @@ body {
   line-height: 1.15;
   margin: 0 0 1rem;
   letter-spacing: -0.02em;
+}
+
+.md-typeset .scnf-program-date {
+  display: inline-block;
+  color: var(--scnf-muted);
+  font-size: 0.7em;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.scnf-program-section {
+  margin: 1.2rem 0;
+  padding: clamp(0.75rem, 2vw, 1.1rem);
+  border: 1px solid var(--scnf-border);
+  border-radius: 0.85rem;
+  background: var(--scnf-card-bg);
+}
+
+.md-typeset .scnf-program-section > h2 {
+  margin: 0 0 0.7rem;
+}
+
+.scnf-program-section > :last-child {
+  margin-bottom: 0;
 }
 
 .md-typeset h2 {
