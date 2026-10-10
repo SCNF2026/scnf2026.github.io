@@ -43,6 +43,10 @@ hide:
       <p class="person-card__meta"><span class="person-card__affiliation">University of Parma</span> <small class="person-card__country">Italy</small></p>
     </li>
     <li class="person-card">
+      <h3 class="person-card__name">Seung-Yeal Ha</h3>
+      <p class="person-card__meta"><span class="person-card__affiliation">Seoul National University</span> <small class="person-card__country">South Korea</small></p>
+    </li>
+    <li class="person-card">
       <h3 class="person-card__name">Masanari Hattori</h3>
       <p class="person-card__meta"><span class="person-card__affiliation">Kyoto University</span> <small class="person-card__country">Japan</small></p>
     </li>
