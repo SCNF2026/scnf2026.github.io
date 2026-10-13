@@ -43,7 +43,7 @@ Kyoto, Japan
 
 KRP has several buildings. Meeting-room details will be provided by the organizers closer to the workshop.
 
-[Official access information](https://www.krp.co.jp/english/access_to_krp/) · [Find KRP on a map](https://www.google.com/maps/search/?api=1&query=Kyoto+Research+Park)
+[Official access information](https://www.krp.co.jp/english/access_to_krp/) · [Google map](https://www.google.com/maps/search/?api=1&query=Kyoto+Research+Park)
 </section>
 
 <section class="info-card" markdown>

@@ -51,8 +51,8 @@
 <div class="md-consent__controls">
   {% for action in actions %}
     {% if action == "accept" %}
-      <button class="md-button md-button--primary">
-        {{- lang.t("consent.accept") -}}
+      <button type="submit" id="__consent-accept" class="md-button md-button--primary">
+        Accept all
       </button>
     {% endif %}
     {% if action == "reject" %}
@@ -76,14 +76,17 @@
 <script>
   (() => {
     const button = document.getElementById("__consent-manage")
+    const accept = document.getElementById("__consent-accept")
     const toggle = document.getElementById("__settings")
     const panel = document.getElementById("__consent-settings")
+    const form = button && button.closest("form")
 
-    if (!button || !toggle || !panel || button.dataset.scnfReady) return
+    if (!button || !accept || !toggle || !panel || !form || button.dataset.scnfReady) return
     button.dataset.scnfReady = "true"
 
     const sync = () => {
       const expanded = toggle.checked
+      accept.textContent = expanded ? "Save preferences" : "Accept all"
       button.setAttribute("aria-expanded", String(expanded))
       if (expanded) panel.removeAttribute("aria-hidden")
       else panel.setAttribute("aria-hidden", "true")
@@ -91,6 +94,15 @@
 
     button.addEventListener("click", () => toggle.click())
     toggle.addEventListener("change", sync)
+    // Update the selection before Material saves it, including Enter submits.
+    // In the expanded settings view, preserve the visitor's chosen checkboxes.
+    form.addEventListener("submit", () => {
+      if (!toggle.checked) {
+        form.querySelectorAll('input[type="checkbox"][name]').forEach(input => {
+          input.checked = true
+        })
+      }
+    }, true)
     sync()
   })()
 </script>

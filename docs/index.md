@@ -33,21 +33,21 @@ An international workshop on nonequilibrium flows, connecting approaches and sca
 </p>
 
 <nav class="scnf-actions" aria-label="Workshop essentials" markdown>
-[Invited speakers](participants.md){ .md-button .md-button--primary }
+[Open Day · 8 Dec.](open-day.md){ .md-button .md-button--primary }
 [Plan your visit](venue.md){ .md-button }
 [Program](program.md){ .md-button }
 </nav>
 
-<p class="hero-participation">Talks are by invitation. For participation enquiries, <a href="venue/#contact">contact the organizers</a>.</p>
+<p class="hero-participation"><a href="open-day/">Open Day</a> welcomes researchers and students. The core workshop is a closed meeting for workshop participants, organizers and advisors. For participation enquiries, <a href="venue/#contact">contact the organizers</a>.</p>
 
 </div>
 
 <section class="scnf-update" aria-labelledby="latest-update" markdown>
 ## Latest update { #latest-update .no-permalink }
 
-<time datetime="2026-09-19">19 September 2026</time>
+<time datetime="2026-10-12">12 October 2026</time>
 
-Discover the new [Explore Kyoto guide](explore-kyoto.md) and find your way between the station, hotel and venue in [Venue & Travel](venue.md).
+Explore the [Open Day on 8 December](open-day.md), including the six speakers. Online streaming is planned; further details will follow.
 </section>
 
 ## Motivation and scope { .no-permalink }

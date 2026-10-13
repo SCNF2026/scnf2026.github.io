@@ -22,38 +22,9 @@ The detailed program, talk titles and session times will be announced later. All
 <section class="scnf-program-section" aria-labelledby="open-day" markdown>
 ## Open Day <span class="scnf-program-date">[8th Dec.]</span> { #open-day }
 
-The Open Day welcomes researchers and students beyond the core workshop to join a day of lectures on nonequilibrium flows.
+A day of lectures on nonequilibrium flows, welcoming researchers and students beyond the core workshop.
 
-**Online streaming is planned.** Viewing details will be announced later.
-
-<p class="scnf-eyebrow">Speakers</p>
-
-<ul class="people-grid people-grid--compact" role="list">
-  <li class="person-card person-card--multi-affiliation">
-    <h3 class="person-card__name">Kazuo Aoki</h3>
-    <p class="person-card__meta"><span class="person-card__affiliation">Kyoto University; National Cheng Kung University</span> <small class="person-card__country">Japan · Taiwan</small></p>
-  </li>
-  <li class="person-card">
-    <h3 class="person-card__name">Alejandro L Garcia</h3>
-    <p class="person-card__meta"><span class="person-card__affiliation">San José State University</span> <small class="person-card__country">United States</small></p>
-  </li>
-  <li class="person-card">
-    <h3 class="person-card__name">Michal Pavelka</h3>
-    <p class="person-card__meta"><span class="person-card__affiliation">Charles University</span> <small class="person-card__country">Czech Republic</small></p>
-  </li>
-  <li class="person-card">
-    <h3 class="person-card__name">Tommaso Ruggeri</h3>
-    <p class="person-card__meta"><span class="person-card__affiliation">University of Bologna</span> <small class="person-card__country">Italy</small></p>
-  </li>
-  <li class="person-card">
-    <h3 class="person-card__name">Henning Struchtrup</h3>
-    <p class="person-card__meta"><span class="person-card__affiliation">University of Victoria</span> <small class="person-card__country">Canada</small></p>
-  </li>
-  <li class="person-card">
-    <h3 class="person-card__name">Masaru Sugiyama</h3>
-    <p class="person-card__meta"><span class="person-card__affiliation">Nagoya Institute of Technology</span> <small class="person-card__country">Japan</small></p>
-  </li>
-</ul>
+[Open Day · speakers & information](open-day.md){ .md-button .md-button--primary }
 </section>
 
 <section class="scnf-program-section" aria-labelledby="core-workshop" markdown>

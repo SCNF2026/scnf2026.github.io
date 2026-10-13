@@ -84,10 +84,11 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra_css:
-  - "stylesheets/extra.css?v=20261010-program-unified"
+  - "stylesheets/extra.css?v=20261013-usability"
 
 nav:
   - Home: index.md
+  - Open Day: open-day.md
   - Program: program.md
   - Participants: participants.md
   - Venue & Travel: venue.md
