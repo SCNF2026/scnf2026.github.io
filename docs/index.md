@@ -43,8 +43,6 @@ SCNF 2026 is a four-day workshop combining general introductory talks, in-depth 
   </div>
 </dl>
 
-<p class="hero-remembrance">Professor Miroslav Grmela, one of the founders of GENERIC, had kindly agreed to give a talk at SCNF 2026, but sadly passed away. We remember him with gratitude.</p>
-
 <nav class="scnf-actions" aria-label="Workshop essentials" markdown>
 [Plan your visit](venue.md){ .md-button }
 [Program](program.md){ .md-button }
