@@ -407,6 +407,56 @@ body {
   font-weight: 400;
 }
 
+.hero .hero-format-lead {
+  margin: 0.85rem 0 0;
+  font-size: 0.82rem;
+  line-height: 1.6;
+}
+
+.hero .scnf-workshop-format {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.4rem;
+  margin: 0.85rem 0 1rem;
+}
+
+.scnf-workshop-format > div {
+  min-width: 0;
+  padding-top: 0.65rem;
+  border-top: 1px solid var(--scnf-border);
+}
+
+.hero .scnf-workshop-format dt {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.15rem 0.6rem;
+  margin: 0;
+  font-size: 0.84rem;
+  font-weight: 650;
+  line-height: 1.5;
+}
+
+.scnf-workshop-format dt > span {
+  color: var(--scnf-muted);
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+
+.hero .scnf-workshop-format dd {
+  margin: 0.35rem 0 0;
+  font-size: 0.78rem;
+  line-height: 1.65;
+}
+
+.hero .hero-remembrance {
+  max-width: 90ch;
+  margin: 0 0 1rem;
+  color: var(--scnf-muted);
+  font-size: 0.76rem;
+  line-height: 1.65;
+}
+
 .md-typeset .hero-participation {
   margin: 0.7rem 0 0;
   color: var(--scnf-muted);
@@ -1213,6 +1263,11 @@ body {
     display: block;
     margin-left: 0;
     margin-top: 0.1rem;
+  }
+
+  .hero .scnf-workshop-format {
+    grid-template-columns: 1fr;
+    gap: 0.85rem;
   }
 
   .scnf-theme-grid {
