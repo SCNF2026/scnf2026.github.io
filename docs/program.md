@@ -6,9 +6,9 @@ hide:
 
 # Program
 
-SCNF 2026 is a four-day workshop combining general introductory talks, in-depth research talks and focused discussions on nonequilibrium flows.
+SCNF 2026 is a four-day workshop featuring talks and focused discussions on nonequilibrium flows.
 
-Professor Miroslav Grmela, one of the founders of GENERIC, had kindly agreed to give a talk at SCNF 2026, but sadly passed away. We remember him with gratitude.
+We were deeply saddened to learn that Professor Miroslav Grmela, one of the founders of GENERIC, passed away in June 2026. He had kindly agreed to give a talk at SCNF 2026, and we remember him with gratitude.
 
 For speakers from across all four days, see [Invited Speakers](participants.md). Participation on 9–11 December is by invitation.
 
@@ -28,7 +28,7 @@ The detailed program, talk titles and session times will be announced later. All
 <section class="scnf-program-section" aria-labelledby="open-day" markdown>
 ## 8th Dec. <span class="scnf-program-date">(Open Day)</span> { #open-day }
 
-General introductory talks presenting the main ideas and motivations behind the different theories to a broad audience of researchers and students.
+Talks presenting the main ideas and motivations behind different theories of nonequilibrium flows to a broad audience of researchers and students.
 
 </section>
 

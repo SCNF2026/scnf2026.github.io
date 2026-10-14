@@ -29,13 +29,13 @@ hide:
 </dl>
 
 <p class="hero-lead">
-SCNF 2026 is a four-day workshop combining general introductory talks, in-depth research talks and focused discussions on nonequilibrium flows.
+SCNF 2026 is a four-day workshop featuring talks and focused discussions on nonequilibrium flows.
 </p>
 
 <dl class="scnf-workshop-format">
   <div>
     <dt>8 December <span>(Open Day)</span></dt>
-    <dd>General introductory talks presenting the main ideas and motivations behind the different theories to a broad audience of researchers and students.</dd>
+    <dd>Talks presenting the main ideas and motivations behind different theories of nonequilibrium flows to a broad audience of researchers and students.</dd>
   </div>
   <div>
     <dt>9–11 December</dt>
