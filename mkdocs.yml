@@ -84,11 +84,14 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra_css:
-  - "stylesheets/extra.css?v=20261013-usability"
+  - "stylesheets/extra.css?v=20261014-nav-six"
+
+# Temporarily omit the Open Day tab; preserve its page and existing links.
+not_in_nav: |
+  /open-day.md
 
 nav:
   - Home: index.md
-  - Open Day: open-day.md
   - Program: program.md
   - Participants: participants.md
   - Venue & Travel: venue.md

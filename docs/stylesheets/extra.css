@@ -105,7 +105,7 @@ body {
 
 .scnf-page-nav__list {
   display: grid;
-  grid-template-columns: repeat(7, auto);
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 0.3rem;
   margin: 0 auto;
   padding: 0 1.2rem;
@@ -177,22 +177,13 @@ body {
   }
 
   .scnf-page-nav__list {
-    grid-template-columns: repeat(12, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 0.1rem 0.2rem;
     padding: 0 0.6rem;
   }
 
   .scnf-page-nav__list > li {
     min-width: 0;
-    grid-column: span 3;
-  }
-
-  .scnf-page-nav__list > li:first-child {
-    grid-column: span 2;
-  }
-
-  .scnf-page-nav__list > li:nth-child(n + 4) {
-    grid-column: span 4;
   }
 
   .scnf-page-nav__link {
