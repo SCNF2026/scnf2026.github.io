@@ -1,13 +1,13 @@
 ---
 title: "Open Day [8 Dec 2026]"
-description: "SCNF 2026 Open Day on 8 December 2026: lectures on nonequilibrium flows for researchers and students. Online streaming is planned; further details will follow."
+description: "SCNF 2026 Open Day on 8 December 2026: talks on nonequilibrium flows for researchers and students. Online streaming is planned; further details will follow."
 hide:
   - toc
 ---
 
 # Open Day <span class="scnf-program-date">[8 Dec 2026]</span> { #open-day-8th-dec }
 
-<p class="page-lead">The SCNF 2026 Open Day will be held at <a href="../venue/#kyoto-research-park">Kyoto Research Park (KRP)</a> in Kyoto, Japan, with lectures on nonequilibrium flows. Researchers and students beyond the core workshop are welcome.</p>
+<p class="page-lead">The SCNF 2026 Open Day will be held at <a href="../venue/#kyoto-research-park">Kyoto Research Park (KRP)</a> in Kyoto, Japan, with talks on nonequilibrium flows. Researchers and students beyond the core workshop are welcome.</p>
 
 <div class="scnf-notice" markdown>
 **Details to follow**

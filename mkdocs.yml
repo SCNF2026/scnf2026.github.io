@@ -86,8 +86,8 @@ markdown_extensions:
 extra_css:
   - "stylesheets/extra.css?v=20261014-nav-six"
 
-# Temporarily omit the Open Day tab; preserve its page and existing links.
-not_in_nav: |
+# Preserve the Open Day source while temporarily omitting it from the site.
+exclude_docs: |
   /open-day.md
 
 nav:

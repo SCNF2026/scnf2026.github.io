@@ -33,22 +33,13 @@ An international workshop on nonequilibrium flows, connecting approaches and sca
 </p>
 
 <nav class="scnf-actions" aria-label="Workshop essentials" markdown>
-[Open Day · 8 Dec.](open-day.md){ .md-button .md-button--primary }
 [Plan your visit](venue.md){ .md-button }
 [Program](program.md){ .md-button }
 </nav>
 
-<p class="hero-participation"><a href="open-day/">Open Day</a> welcomes researchers and students. The core workshop is a closed meeting for workshop participants, organizers and advisors. For participation enquiries, <a href="venue/#contact">contact the organizers</a>.</p>
+<p class="hero-participation">The core workshop is a closed meeting for workshop participants, organizers and advisors. For participation enquiries, <a href="venue/#contact">contact the organizers</a>.</p>
 
 </div>
-
-<section class="scnf-update" aria-labelledby="latest-update" markdown>
-## Latest update { #latest-update .no-permalink }
-
-<time datetime="2026-10-12">12 October 2026</time>
-
-Explore the [Open Day on 8 December](open-day.md), including the six speakers. Online streaming is planned; further details will follow.
-</section>
 
 ## Motivation and scope { .no-permalink }
 
