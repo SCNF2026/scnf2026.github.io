@@ -6,15 +6,17 @@ hide:
 
 # Program
 
-The Open Day and the core workshop are equally important and complementary parts of SCNF 2026.
+SCNF 2026 is a four-day workshop combining general introductory talks, in-depth research talks and focused discussions on nonequilibrium flows.
 
-For speakers from across all four days, see [Invited Speakers](participants.md).
+Professor Miroslav Grmela, one of the founders of GENERIC, had kindly agreed to give a talk at SCNF 2026, but sadly passed away. We remember him with gratitude.
+
+For speakers from across all four days, see [Invited Speakers](participants.md). Participation on 9–11 December is by invitation.
 
 <nav class="scnf-jump-links" aria-label="Program sections" markdown>
-[Open Day (8th Dec.)](#open-day)
-[Closed Core Day (9th Dec.)](#core-day-9-dec)
-[Closed Core Day (10th Dec.)](#core-day-10-dec)
-[Closed Core Day (11th Dec.)](#core-day-11-dec)
+[8th Dec. (Open Day)](#open-day)
+[9th Dec.](#core-day-9-dec)
+[10th Dec.](#core-day-10-dec)
+[11th Dec.](#core-day-11-dec)
 </nav>
 
 <div class="scnf-notice" markdown>
@@ -24,29 +26,28 @@ The detailed program, talk titles and session times will be announced later. All
 </div>
 
 <section class="scnf-program-section" aria-labelledby="open-day" markdown>
-## Open Day <span class="scnf-program-date">[8th Dec.]</span> { #open-day }
+## 8th Dec. <span class="scnf-program-date">(Open Day)</span> { #open-day }
 
-General talks by invited speakers, for a broad audience of researchers and students.
+General introductory talks presenting the main ideas and motivations behind the different theories to a broad audience of researchers and students.
 
-Details to follow.
 </section>
 
-<section class="scnf-program-section" aria-labelledby="core-workshop" markdown>
-## Closed Core Workshop { #core-workshop }
+<section id="core-workshop" class="scnf-program-section" aria-labelledby="core-day-9-dec" markdown>
+## 9th Dec. { #core-day-9-dec }
 
-In-depth research talks by invited speakers, with focused discussions among workshop participants. Participation is by invitation.
+In-depth research talks by invited speakers, with focused discussions among workshop participants.
+</section>
 
-### 9th Dec. { #core-day-9-dec }
+<section class="scnf-program-section" aria-labelledby="core-day-10-dec" markdown>
+## 10th Dec. { #core-day-10-dec }
 
-Details to follow.
+In-depth research talks by invited speakers, with focused discussions among workshop participants.
+</section>
 
-### 10th Dec. { #core-day-10-dec }
+<section class="scnf-program-section" aria-labelledby="core-day-11-dec" markdown>
+## 11th Dec. { #core-day-11-dec }
 
-Details to follow.
-
-### 11th Dec. { #core-day-11-dec }
-
-Details to follow.
+In-depth research talks by invited speakers, with focused discussions among workshop participants.
 </section>
 
 For participation enquiries, please [contact the organizers](venue.md#contact).

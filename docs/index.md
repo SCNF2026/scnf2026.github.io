@@ -29,23 +29,21 @@ hide:
 </dl>
 
 <p class="hero-lead">
-An international workshop on nonequilibrium flows, connecting approaches and scales.
+SCNF 2026 is a four-day workshop combining general introductory talks, in-depth research talks and focused discussions on nonequilibrium flows.
 </p>
-
-<p class="hero-format-lead">The Open Day and the core workshop are equally important and complementary parts of SCNF 2026.</p>
 
 <dl class="scnf-workshop-format">
   <div>
-    <dt>Open Day <span>8 December</span></dt>
-    <dd>General talks by invited speakers, for a broad audience of researchers and students.</dd>
+    <dt>8 December <span>(Open Day)</span></dt>
+    <dd>General introductory talks presenting the main ideas and motivations behind the different theories to a broad audience of researchers and students.</dd>
   </div>
   <div>
-    <dt>Core workshop <span>9–11 December</span></dt>
+    <dt>9–11 December</dt>
     <dd>In-depth research talks by invited speakers, with focused discussions among workshop participants. Participation is by invitation.</dd>
   </div>
 </dl>
 
-<p class="hero-remembrance">We remember Professor Miroslav Grmela, one of the founders of GENERIC, who had planned to join us but sadly passed away.</p>
+<p class="hero-remembrance">Professor Miroslav Grmela, one of the founders of GENERIC, had kindly agreed to give a talk at SCNF 2026, but sadly passed away. We remember him with gratitude.</p>
 
 <nav class="scnf-actions" aria-label="Workshop essentials" markdown>
 [Plan your visit](venue.md){ .md-button }
