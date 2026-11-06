@@ -1,0 +1,59 @@
+SCNF 2026 Social Events photographs
+Acquired 2026-11-04 from the Wikimedia Commons imageinfo API at 1280px width.
+The local JPEGs are unmodified copies of the Commons-generated thumbnails.
+The page uses a 16:9 CSS display crop for the Oten-mon photograph; this is
+indicated in its caption. The linked Commons file contains the full composition.
+The photographs illustrate the locations; they do not promise December conditions.
+
+heian-shobikan-muscla3pin.jpg
+Title: Heian-jingu-shinen-t01.jpg
+Creator: Muscla3pin
+Source: https://commons.wikimedia.org/wiki/File:Heian-jingu-shinen-t01.jpg
+Original: https://upload.wikimedia.org/wikipedia/commons/4/46/Heian-jingu-shinen-t01.jpg
+License: Creative Commons Attribution-ShareAlike 3.0 Unported
+https://creativecommons.org/licenses/by-sa/3.0/
+Thumbnail dimensions: 1280 x 720
+
+heian-otemon-zairon.jpg
+Title: Kyoto Heian-jingu Otemmon 10.jpg
+Creator: Zairon
+Source: https://commons.wikimedia.org/wiki/File:Kyoto_Heian-jingu_Otemmon_10.jpg
+Original: https://upload.wikimedia.org/wikipedia/commons/8/88/Kyoto_Heian-jingu_Otemmon_10.jpg
+License: Creative Commons Attribution-ShareAlike 4.0 International
+https://creativecommons.org/licenses/by-sa/4.0/
+Thumbnail dimensions: 1280 x 637
+
+These licenses apply to the photographs, not to the SCNF website as a whole.
+
+Small nearby-place thumbnails (acquired 2026-11-06).
+Unmodified copies of Commons-generated thumbnails; CSS display crops only.
+
+nanzen-suirokaku-663highland-thumb.jpg
+Title: File:251213 Nanzen-ji Suirokaku Kyoto Japan04s3.jpg
+Creator: 663highland
+Source: https://commons.wikimedia.org/wiki/File:251213_Nanzen-ji_Suirokaku_Kyoto_Japan04s3.jpg
+Original: https://upload.wikimedia.org/wikipedia/commons/3/30/251213_Nanzen-ji_Suirokaku_Kyoto_Japan04s3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+License: CC BY-SA 4.0
+https://creativecommons.org/licenses/by-sa/4.0
+Thumbnail dimensions reported by API: 320 x 213
+Actual downloaded JPEG dimensions: 330 x 220
+
+chionin-sanmon-663highland-thumb.jpg
+Title: File:Chionin01n4272.jpg
+Creator: 663highland
+Source: https://commons.wikimedia.org/wiki/File:Chionin01n4272.jpg
+Original: https://upload.wikimedia.org/wikipedia/commons/f/fc/Chionin01n4272.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+License: CC BY 2.5
+https://creativecommons.org/licenses/by/2.5
+Thumbnail dimensions reported by API: 320 x 213
+Actual downloaded JPEG dimensions: 330 x 220
+
+okazaki-rabbit-hironoyama-thumb.jpg
+Title: File:Rabbit statue of Okazaki-jinja 001.jpg
+Creator: Hironoyama
+Source: https://commons.wikimedia.org/wiki/File:Rabbit_statue_of_Okazaki-jinja_001.jpg
+Original: https://upload.wikimedia.org/wikipedia/commons/3/3d/Rabbit_statue_of_Okazaki-jinja_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+License: CC BY-SA 4.0
+https://creativecommons.org/licenses/by-sa/4.0
+Thumbnail dimensions reported by API: 320 x 213
+Actual downloaded JPEG dimensions: 330 x 220

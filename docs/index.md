@@ -46,6 +46,7 @@ SCNF 2026 is a four-day workshop featuring talks and focused discussions on none
 <nav class="scnf-actions" aria-label="Workshop essentials" markdown>
 [Plan your visit](venue.md){ .md-button }
 [Program](program.md){ .md-button }
+[Social events](social-events.md){ .md-button }
 </nav>
 
 <p class="hero-participation">For participation enquiries, <a href="venue/#contact">contact the organizers</a>.</p>

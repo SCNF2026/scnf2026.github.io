@@ -1581,6 +1581,183 @@ body {
   line-height: 1.5;
 }
 
+/* Compact event overview and optional background. */
+.scnf-route__time {
+  display: block;
+  margin: 0.15rem 0 0.3rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--scnf-muted);
+}
+.md-typeset details.scnf-compact-detail > summary {
+  padding: 0.7rem 2.2rem 0.7rem 0.85rem;
+  font-size: 0.76rem;
+  line-height: 1.5;
+}
+.md-typeset details.scnf-compact-detail > summary::before { display: none; }
+@media screen and (max-width: 600px) {
+  .scnf-day-photos .kyoto-photo--secondary { display: none; }
+}
+
+/* Short, phone-friendly choices for the independent Kyoto afternoon. */
+.scnf-guide-start {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(13rem, 0.5fr);
+  gap: 1.2rem;
+  align-items: center;
+  margin: 1rem 0 1.4rem;
+  padding: 1rem 1.2rem;
+  border: 1px solid var(--scnf-border);
+  border-left: 3px solid var(--scnf-link);
+  border-radius: 0.75rem;
+  background: var(--scnf-bg-2);
+}
+
+.scnf-guide-start > div > :first-child { margin-top: 0; }
+.scnf-guide-start > div > :last-child { margin-bottom: 0; }
+.scnf-guide-start .md-button { width: 100%; text-align: center; }
+
+/* Keep the day's plan ahead of the optional visitor directory. */
+.scnf-day-overview {
+  padding: 0.6rem 1rem;
+  margin: 0.75rem 0 1.25rem;
+  border: 1px solid var(--scnf-border);
+  border-left: 3px solid var(--scnf-link);
+  border-radius: 0.75rem;
+  background: var(--scnf-bg-2);
+}
+
+.md-typeset .scnf-day-overview table:not([class]) {
+  display: table;
+  background: transparent;
+  width: 100%;
+  font-size: 0.73rem;
+  line-height: 1.55;
+}
+
+.scnf-day-overview .md-typeset__table { display: block; width: 100%; padding: 0; }
+.scnf-day-overview th:first-child { width: 32%; }
+
+.md-typeset .scnf-plan-hint {
+  margin: 0.6rem 0;
+  font-size: 0.73rem;
+  color: var(--scnf-muted);
+  line-height: 1.55;
+}
+
+.md-typeset .scnf-taxi-card {
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--scnf-border);
+  border-radius: 0.5rem;
+  font-style: normal;
+  background: var(--scnf-bg-2);
+}
+
+.md-typeset details.scnf-place-directory > summary {
+  padding: 0.7rem 2.2rem 0.7rem 0.85rem;
+  font-size: 0.76rem;
+  line-height: 1.5;
+}
+
+.md-typeset details.scnf-place-directory > summary::before { display: none; }
+.md-typeset .scnf-place-directory table:not([class]) { font-size: 0.73rem; line-height: 1.55; }
+
+@media screen and (max-width: 600px) {
+  .scnf-day-overview { padding: 0.4rem 0.7rem; }
+  .scnf-day-overview th:first-child { width: 42%; }
+  .md-typeset .scnf-day-overview th,
+  .md-typeset .scnf-day-overview td { padding: 0.55em 0.65em; }
+
+  /* Retain every place and its hours without sideways scrolling. */
+  .scnf-place-directory .md-typeset__scrollwrap { margin: 0; overflow: visible; }
+  .scnf-place-directory .md-typeset__table { display: block; padding: 0; width: 100%; }
+  .md-typeset .scnf-place-directory table:not([class]),
+  .scnf-place-directory tbody { display: block; min-width: 0; width: 100%; }
+  .md-typeset .scnf-place-directory table:not([class]) { border: 0; background: transparent; }
+  .scnf-place-directory thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+  .scnf-place-directory tbody tr {
+    display: block;
+    margin: 0.6rem 0;
+    padding: 0.75rem;
+    border: 1px solid var(--scnf-border);
+    border-radius: 0.6rem;
+    background: var(--scnf-card-bg);
+  }
+  .md-typeset .scnf-place-directory table:not([class]) td {
+    display: block;
+    width: auto;
+    min-width: 0;
+    padding: 0.3rem 0;
+    border: 0;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+  .scnf-place-directory td:nth-child(3)::before,
+  .scnf-place-directory td:nth-child(4)::before {
+    display: block;
+    color: var(--scnf-muted);
+    font-size: 0.67rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+  }
+  .scnf-place-directory td:nth-child(3)::before { content: "Walk · one way"; }
+  .scnf-place-directory td:nth-child(4)::before { content: "Hours & visiting notes"; }
+}
+
+.md-typeset .scnf-plan-stops {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+  color: var(--scnf-muted);
+  font-size: 0.72rem;
+}
+
+.scnf-plan-stops > span {
+  padding: 0.18rem 0.5rem;
+  border: 1px solid var(--scnf-border);
+  border-radius: 0.4rem;
+  color: var(--md-default-fg-color);
+  background: var(--scnf-bg-2);
+  font-weight: 700;
+}
+
+.scnf-guide-map object {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 58 / 55;
+}
+
+.scnf-guide-map--mobile { display: none; }
+.scnf-guide-map--mobile object { aspect-ratio: 66 / 68; }
+.scnf-mobile-places { display: none; }
+.scnf-practical-grid h4 { margin-top: 0; }
+
+@media screen and (max-width: 600px) {
+  .scnf-guide-start { grid-template-columns: 1fr; gap: 0.75rem; padding: 1rem; }
+  .scnf-guide-map--desktop { display: none; }
+  .scnf-guide-map--mobile { display: block; }
+  .scnf-mobile-places { display: block; margin: 0.75rem 0 1rem; }
+  .md-typeset .scnf-map-index-title { margin: 0 0 0.5rem; font-size: 0.75rem; font-weight: 650; }
+  .md-typeset ol.scnf-map-index { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.4rem; list-style: none; margin: 0; padding: 0; }
+  .md-typeset ol.scnf-map-index > li { margin: 0; padding: 0; min-width: 0; }
+  .md-typeset ol.scnf-map-index > li.scnf-map-area { grid-column: 1 / -1; margin: 0.45rem 0 0; padding: 0; font-size: 0.68rem; line-height: 1.4; font-weight: 650; color: var(--scnf-muted); }
+  .md-typeset ol.scnf-map-index a:not(.md-button) { display: flex; align-items: center; gap: 0.4rem; box-sizing: border-box; min-height: 60px; height: 100%; padding: 0.4rem; border: 1px solid var(--scnf-border); border-radius: 0.4rem; background: var(--scnf-bg-2); color: var(--md-default-fg-color); font-size: 0.72rem; line-height: 1.35; text-decoration: none; overflow-wrap: anywhere; }
+  .scnf-map-badge { display: grid; place-items: center; flex: 0 0 27px; height: 27px; border-radius: 50%; color: #fff; background: var(--place-color); font-size: 0.65rem; font-weight: 700; }
+  .md-typeset ul.scnf-map-categories { display: flex; flex-wrap: wrap; gap: 0.3rem 0.7rem; list-style: none; padding: 0; margin: 0.65rem 0 0; font-size: 0.65rem; color: var(--scnf-muted); }
+  .md-typeset ul.scnf-map-categories li { display: flex; align-items: center; gap: 0.25rem; padding: 0; margin: 0; }
+  .scnf-map-categories li > span { width: 8px; height: 8px; border-radius: 50%; background: var(--place-color); }
+
+}
+
 .md-typeset .kyoto-photo {
   margin: 0;
   max-width: none;
@@ -1601,6 +1778,26 @@ body {
   font-size: 0.65rem;
   font-style: normal;
   text-align: left;
+}
+
+.md-typeset .scnf-day-photos .kyoto-photo figcaption {
+  margin-top: 0.35rem;
+  font-size: 0.6rem;
+  line-height: 1.4;
+}
+
+.md-typeset .scnf-day-photos .scnf-photo-credit {
+  font-size: 0.5rem;
+}
+
+.md-typeset .scnf-day-photos .scnf-photo-credit a {
+  color: inherit;
+}
+
+.md-typeset .scnf-photo-note {
+  margin-top: 0.35rem;
+  font-size: 0.55rem;
+  line-height: 1.4;
 }
 
 .scnf-place--wide {
@@ -1840,4 +2037,35 @@ body {
   .md-content__inner {
     margin-left: 0;
   }
+}
+
+
+/* Compact visitor directory: benefit first, practical notes second. */
+.md-typeset ul.scnf-place-list { list-style: none; margin: 0; padding: 0; }
+.md-typeset ul.scnf-place-list > li.scnf-place-entry { display: grid; grid-template-columns: minmax(0, 1fr) minmax(12rem, 0.48fr); gap: 0.08rem 1rem; align-items: start; margin: 0; padding: 0.65rem 0; border-bottom: 1px solid var(--scnf-border); }
+.md-typeset ul.scnf-place-list > li:last-child { border-bottom: 0; }
+.scnf-place-main { min-width: 0; }
+.scnf-place-entry > .scnf-place-main { grid-column: 1; grid-row: 1; }
+.scnf-place-entry > .scnf-place-meta { grid-column: 1; grid-row: 2; }
+.scnf-place-entry > .scnf-place-hours { grid-column: 2; grid-row: 1 / span 2; }
+.scnf-place-main--photo { display: grid; grid-template-columns: 80px minmax(0, 1fr); gap: 0.65rem; }
+.scnf-place-copy { min-width: 0; }
+.md-typeset .scnf-place-entry h4 { display: flex; align-items: baseline; gap: 0.35rem; margin: 0 0 0.18rem; font-size: 0.78rem; line-height: 1.35; }
+.scnf-place-number { display: inline-grid; place-items: center; flex: 0 0 1.12rem; min-height: 1.12rem; border-radius: 50%; color: #fff; background: var(--place-color); font-size: 0.6rem; font-weight: 700; }
+.md-typeset .scnf-place-entry h4 a[href]:not(.md-button):not(.headerlink) { display: inline-block; min-height: 24px; padding: 0.05rem 0; color: var(--md-default-fg-color); text-decoration: none; }
+.md-typeset .scnf-place-entry h4 a[href]:hover { color: var(--scnf-link); text-decoration: underline; }
+.md-typeset .scnf-place-teaser { margin: 0 0 0.15rem; font-size: 0.72rem; line-height: 1.45; }
+.md-typeset .scnf-place-meta { margin: 0; color: var(--scnf-muted); font-size: 0.61rem; line-height: 1.5; }
+.scnf-place-meta a { display: inline-block; min-height: 24px; padding: 0.08rem 0.14rem; }
+.md-typeset .scnf-place-hours { margin: 0.1rem 0 0; padding-left: 0.7rem; border-left: 1px solid var(--scnf-border); color: var(--scnf-muted); font-size: 0.63rem; line-height: 1.5; }
+.scnf-place-hours small { font-size: inherit; color: inherit; opacity: 1; }
+.md-typeset .scnf-place-thumb { display: block; width: 80px; height: 64px; margin-top: 0.1rem; }
+.scnf-place-thumb img { display: block; width: 80px; height: 64px; object-fit: cover; border-radius: 0.35rem; }
+@media screen and (max-width: 600px) {
+  .md-typeset ul.scnf-place-list > li.scnf-place-entry { display: block; padding: 0.6rem 0; }
+  .scnf-place-main--photo { grid-template-columns: 68px minmax(0, 1fr); gap: 0.5rem; }
+  .md-typeset .scnf-place-entry h4 { font-size: 0.76rem; }
+  .md-typeset .scnf-place-teaser { font-size: 0.7rem; }
+  .md-typeset .scnf-place-hours { border-left: 0; padding-left: 0; margin-top: 0.18rem; font-size: 0.61rem; }
+  .md-typeset .scnf-place-thumb, .scnf-place-thumb img { width: 68px; height: 60px; }
 }

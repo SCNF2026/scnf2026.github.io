@@ -1,12 +1,12 @@
 ---
-description: "Explore Kyoto during your SCNF 2026 visit: six ideas around Umekoji, Kyoto Station and Arashiyama, with official visitor information."
+description: "Explore Kyoto during your SCNF 2026 visit: ideas around Umekoji, Kyoto Station and Arashiyama, with official visitor information."
 hide:
   - toc
 ---
 
 # Explore Kyoto
 
-<p class="page-lead kyoto-lead" id="kyoto-introduction">Six ideas for your stay: nearby walks, temples around Kyoto Station, and a longer outing in Arashiyama.</p>
+<p class="page-lead kyoto-lead" id="kyoto-introduction">Ideas for your stay: nearby walks, temples around Kyoto Station, and a longer outing in Arashiyama.</p>
 
 <nav class="scnf-jump-links" aria-label="Explore Kyoto sections" markdown>
 [Near the hotel](#nearby)
@@ -16,6 +16,8 @@ hide:
 </nav>
 
 <p class="scnf-visit-note">Independent visits, not workshop excursions. Times are rough estimates on site, <strong>excluding travel</strong>. Check opening days before visiting.</p>
+
+For workshop activities, see [Social Events](social-events.md). The [10 December neighbourhood guide](social-events.md#nearby-guide) suggests short walks, cafés and Kyoto crafts around the dinner venue.
 
 ## Around the venue & hotel { #nearby }
 
@@ -95,7 +97,7 @@ hide:
 
 <p class="scnf-place__time">Suggested visit: 1–1½ hours</p>
 
-<p class="scnf-place__note">Check visitor information for hall access and special openings.</p>
+<p class="scnf-place__note">In 2026, night visits run 31 October–13 December; the pagoda’s ground floor opens 26 November–13 December. Check the <a href="https://toji.or.jp/admission/">official seasonal guide</a> for access.</p>
 
 <footer markdown>
 [Temple website](https://toji.or.jp/en/) · [Map](https://www.google.com/maps/search/?api=1&query=To-ji+Temple+Kyoto){ aria-label="Map of To-ji Temple" }
@@ -115,7 +117,7 @@ hide:
 
 ### Saga & Arashiyama
 
-Explore the riverside around Togetsu-kyo Bridge and the bamboo grove, with temples and smaller streets nearby.
+Explore the riverside around Togetsu-kyo Bridge and the bamboo grove, with temples and smaller streets nearby. Riverside and street walks can be enjoyed on their own; temple and garden interiors have separate admission hours.
 
 <p class="scnf-place__time">Suggested visit: half a day</p>
 
@@ -128,6 +130,16 @@ Explore the riverside around Togetsu-kyo Bridge and the bamboo grove, with templ
 </footer>
 </div>
 </article>
+
+<details class="scnf-travel-detail scnf-compact-detail" id="seasonal-visits" markdown>
+<summary>More ideas · gardens, evening lights & kabuki</summary>
+
+- **[Murin-an](https://murin-an.jp/info/):** a garden fed by the Lake Biwa Canal. Book an hourly entry slot through the official website; reservations open 30 days ahead. [**Closed 9 December**](https://murin-an.jp/press_cat/web/) for maintenance.
+- **[Kodaiji](https://www.kodaiji.com/saiji):** autumn night visits continue through **13 December 2026**, with last entry at **21:30** and closing at **22:00**. An independent evening option; arrange your own travel.
+- **[Minamiza · December Kaomise](https://www.kabuki-bito.jp/theaters/kyoto/):** Kyoto's seasonal kabuki performances run **1–24 December 2026** (no performances on 9 or 17 December). Plan a separate outing and check performance times and tickets.
+
+Seasonal information checked on 6 November 2026. Check the linked official calendars before visiting.
+</details>
 
 ## Before you go { #before-you-go }
 
@@ -151,4 +163,4 @@ Keep residential streets and entrances clear, and follow signs about photography
 
 [Kyoto City Official Travel Guide](https://kyoto.travel/en/) · [Back to venue & travel](venue.md)
 
-<p class="scnf-reviewed">Visitor information checked against official sources on <time datetime="2026-09-19">19 September 2026</time>. Please recheck for your travel dates.</p>
+<p class="scnf-reviewed">General visitor information checked against official sources on <time datetime="2026-09-19">19 September 2026</time>. Please recheck for your travel dates.</p>

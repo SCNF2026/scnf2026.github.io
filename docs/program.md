@@ -1,5 +1,5 @@
 ---
-description: "SCNF 2026 program. The detailed program will be announced later."
+description: "SCNF 2026 preliminary program for all four days, 8–11 December 2026, Kyoto."
 hide:
   - toc
 ---
@@ -20,15 +20,18 @@ For speakers from across all four days, see [Invited Speakers](participants.md).
 </nav>
 
 <div class="scnf-notice" markdown>
-**Details to follow**
+**Preliminary program**
 
-The detailed program, talk titles and session times will be announced later. All times will be shown in **Japan Standard Time (JST, UTC+9)**.
+Further session details will be added as they are confirmed. Times are shown in Japan Standard Time (JST, UTC+9).
 </div>
 
 <section class="scnf-program-section" aria-labelledby="open-day" markdown>
 ## 8th Dec. <span class="scnf-program-date">(Open Day)</span> { #open-day }
 
 Talks presenting the main ideas and motivations behind different theories of nonequilibrium flows to a broad audience of researchers and students.
+
+<span id="welcome-reception"></span>
+**Evening · Welcome Reception** — A standing buffet is planned at [Restaurant PATIO, KRP](https://www.krp.co.jp/english/spatial_services/convention/facilities/patio.html). A separate fee applies; details will follow.
 
 </section>
 
@@ -42,6 +45,8 @@ In-depth research talks by invited speakers, with focused discussions among work
 ## 10th Dec. { #core-day-10-dec }
 
 In-depth research talks by invited speakers, with focused discussions among workshop participants.
+
+Afternoon and evening: [Cultural visit to Heian Jingu and Official Dinner](social-events.md#cultural-visit).
 </section>
 
 <section class="scnf-program-section" aria-labelledby="core-day-11-dec" markdown>

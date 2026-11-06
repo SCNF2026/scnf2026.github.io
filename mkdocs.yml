@@ -84,11 +84,16 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra_css:
-  - "stylesheets/extra.css?v=20261014-home-format"
+  - "stylesheets/extra.css?v=20261106-photo-credits"
 
-# Preserve the Open Day source while temporarily omitting it from the site.
+# Preserve draft sources without publishing their pages, search entries or sitemap URLs.
 exclude_docs: |
   /open-day.md
+  /open-day-registration.md
+
+# These pages are reached from the main pages rather than the top navigation.
+not_in_nav: |
+  /social-events.md
 
 nav:
   - Home: index.md
