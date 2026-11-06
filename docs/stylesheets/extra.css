@@ -1733,9 +1733,9 @@ body {
 }
 
 /* Full map on desktop; map-only with readable HTML names on tablets/phones. */
-.scnf-guide-map--desktop { max-width: 960px; margin-inline: auto; }
+.scnf-guide-map--desktop { max-width: 960px; margin-inline: 0; }
 .scnf-guide-map object { display: block; width: 100%; height: auto; aspect-ratio: 116 / 101; }
-.scnf-guide-map--mobile { display: none; max-width: 660px; margin-inline: auto; }
+.scnf-guide-map--mobile { display: none; max-width: 520px; margin-inline: auto; }
 .scnf-guide-map--mobile object { aspect-ratio: 66 / 68; }
 .scnf-mobile-places { display: none; }
 .scnf-practical-grid h4 { margin-top: 0; }

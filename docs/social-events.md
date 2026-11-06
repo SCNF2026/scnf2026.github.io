@@ -394,7 +394,7 @@ If you are staying at **The Royal Park Hotel Kyoto Umekoji**, the options below 
 **By rail:** walk to **Higashiyama Station (T10)**, about 10 minutes according to the venue's access guide. Take the **Subway Tozai Line towards Uzumasa Tenjingawa** to **Nijo (T15)**, then change to a **local JR Sagano Line train towards Kyoto**. Get off at **Umekoji-Kyotonishi**, about a 1-minute walk from the hotel. Allow extra time for the walk, waiting and changing trains.
 
 <nav class="scnf-actions scnf-social-actions" aria-label="Hotel return options" markdown>
-[Plan the journey · Google Maps](https://www.google.com/maps/dir/?api=1&origin=Heian+Jingu+Kaikan+Kyoto&destination=The+Royal+Park+Hotel+Kyoto+Umekoji&travelmode=transit){ .md-button }
+[Route · Google Maps](https://www.google.com/maps/dir/?api=1&origin=Heian+Jingu+Kaikan+Kyoto&destination=The+Royal+Park+Hotel+Kyoto+Umekoji&travelmode=transit){ .md-button }
 [Hotel access](https://www.royalparkhotels.co.jp/en/the/kyotoumekoji/about/access/){ .md-button }
 </nav>
 
@@ -432,7 +432,7 @@ Regular Thursday hours checked on 6 November 2026. Check current notices for one
 
 Open the venue maps below in Google Maps. Event meeting points will be announced separately.
 
-### Heian Jingu / Heian Jingu Kaikan { #heian-map .no-permalink }
+<span id="heian-map"></span>
 
 Heian Jingu Kaikan, Okazaki, Kyoto (dinner venue).
 
@@ -444,6 +444,18 @@ Heian Jingu Kaikan, Okazaki, Kyoto (dinner venue).
 
 </details>
 
+## Taking part { #taking-part .no-permalink }
+
+Participation in social events is optional and needs to be arranged separately from attendance at the academic sessions. Please [contact the organizers](venue.md#contact) about availability and participation.
+
+For places to explore on your own, see [Explore Kyoto](explore-kyoto.md).
+
+<p class="scnf-visit-note" id="welcome-reception"><span id="tuesday-8-december"></span><span id="patio-map"></span>For the 8 December Welcome Reception, see the <a href="../program/#welcome-reception">Program</a>.</p>
+
+<nav class="scnf-actions scnf-social-actions" aria-label="Related workshop information" markdown>
+[Program](program.md){ .md-button }
+</nav>
+
 <details class="scnf-travel-detail scnf-compact-detail" id="photo-credits" markdown>
 <summary>Small-photo credits</summary>
 Reference photographs, displayed as cropped thumbnails.
@@ -452,15 +464,3 @@ Reference photographs, displayed as cropped thumbnails.
 <p class="scnf-visit-note"><a href="https://commons.wikimedia.org/wiki/File:Rabbit_statue_of_Okazaki-jinja_001.jpg">Okazaki Shrine · Hironoyama</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license">CC BY-SA 4.0</a>.</p>
 <a href="../assets/heian-social-photos.LICENSE.txt">Photo sources & licences</a>
 </details>
-
-## Taking part { #taking-part .no-permalink }
-
-Participation in social events is optional and needs to be arranged separately from attendance at the academic sessions. Please [contact the organizers](venue.md#contact) about availability and participation.
-
-<p class="scnf-visit-note" id="welcome-reception"><span id="tuesday-8-december"></span><span id="patio-map"></span>For the 8 December Welcome Reception, see the <a href="../program/#welcome-reception">Program</a>.</p>
-
-For places to explore on your own, see [Explore Kyoto](explore-kyoto.md).
-
-<nav class="scnf-actions scnf-social-actions" aria-label="Related workshop information" markdown>
-[Program](program.md){ .md-button }
-</nav>
