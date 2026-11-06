@@ -7,18 +7,16 @@ hide:
 
 # Social Events { .no-permalink }
 
-<p class="page-lead">Time together beyond the workshop sessions.</p>
-
-<nav class="scnf-jump-links" aria-label="Social events page sections" markdown>
-[10 December · Kyoto](#kyoto-afternoon)
-[Neighbourhood map](#neighbourhood-map)
-[Suggested routes](#afternoon-ideas)
-[Practical information](#place-directory)
+<nav class="scnf-jump-links scnf-social-jumps" aria-label="Social events page sections" markdown>
+[Schedule](#kyoto-afternoon)
+[Area map](#neighbourhood-map)
+[Routes](#afternoon-ideas)
+[Practical info](#practical-info)
 </nav>
 
 
 <section aria-labelledby="kyoto-afternoon" markdown>
-<p class="scnf-eyebrow">Thursday, 10 December · Cultural visit & dinner</p>
+<p class="scnf-eyebrow">Thu 10 Dec · Visit & dinner</p>
 
 ## An afternoon and evening in Kyoto { #kyoto-afternoon .no-permalink }
 
@@ -48,7 +46,7 @@ A garden visit, time to explore, and a Japanese kaiseki dinner in Kyoto.
     </li>
   </ol>
 </div>
-<p class="scnf-visit-note">Times are in JST. Bus transport both ways is planned; meeting points, departure times and regrouping details will follow. Dress warmly for the garden.</p>
+<p class="scnf-visit-note">Times are in JST. Meeting and regrouping details will follow. Dress warmly for the garden.</p>
 <p class="scnf-visit-note">An indoor break is available in the shared lounge before 17:00. From 17:00, the dinner room can be used before the meal; drinks are not served during that waiting period.</p>
 
 <div class="info-grid scnf-day-photos" markdown>
@@ -76,17 +74,17 @@ Heian Jingu was founded in 1895 for Kyoto's 1,100th anniversary. The Lake Biwa C
 
 ### Neighbourhood map { #neighbourhood-map .no-permalink }
 
-Tap a number for **place information in Google Maps**. **0** is Heian Jingu Kaikan, the dinner venue.
+Select a number for **place information in Google Maps**. **0** is Heian Jingu Kaikan, the dinner venue.
 <p class="scnf-visit-note">Numbers group nearby places; colours show the type of stop.</p>
 
 <div class="scnf-guide-map scnf-guide-map--desktop">
-  <object data="../assets/okazaki-neighbourhood.svg?v=20261106-area-numbers" type="image/svg+xml" width="1160" height="1100" aria-label="Numbered map of seventeen places around Kyoto, with cafés, beer and sake and two highlighted walking streets">
-    <img src="../assets/okazaki-neighbourhood.svg?v=20261106-area-numbers" alt="Seventeen numbered places around Okazaki and Higashiyama, with a teal canal walk and a coral arcade-to-Shirakawa walking segment.">
+  <object data="../assets/okazaki-neighbourhood.svg?v=20261107-map-layout" type="image/svg+xml" width="1160" height="1010" aria-label="Numbered map of seventeen places around Kyoto, with cafés, beer and sake and two highlighted walking streets">
+    <img src="../assets/okazaki-neighbourhood.svg?v=20261107-map-layout" alt="Seventeen numbered places around Okazaki and Higashiyama, with a teal canal walk and a coral arcade-to-Shirakawa walking segment.">
   </object>
 </div>
 <div class="scnf-guide-map scnf-guide-map--mobile">
-  <object data="../assets/okazaki-neighbourhood-mobile.svg?v=20261106-area-numbers" type="image/svg+xml" width="660" height="680" aria-label="Phone map with seventeen numbered stops and two walking segments; zero is the dinner venue">
-    <img src="../assets/okazaki-neighbourhood-mobile.svg?v=20261106-area-numbers" alt="Phone map of seventeen numbered Kyoto stops. Zero is the dinner venue; names and details appear below.">
+  <object data="../assets/okazaki-neighbourhood-mobile.svg?v=20261107-map-layout" type="image/svg+xml" width="660" height="680" aria-label="Phone map with seventeen numbered stops and two walking segments; zero is the dinner venue">
+    <img src="../assets/okazaki-neighbourhood-mobile.svg?v=20261107-map-layout" alt="Phone map of seventeen numbered Kyoto stops. Zero is the dinner venue; names and details appear below.">
   </object>
 </div>
 
@@ -125,8 +123,8 @@ Tap a number for **place information in Google Maps**. **0** is Heian Jingu Kaik
 </ul>
 </nav>
 
-<nav class="scnf-actions" aria-label="Neighbourhood map options" markdown>
-[Larger map with place names](assets/okazaki-neighbourhood.svg?v=20261106-area-numbers){ .md-button }
+<nav class="scnf-actions scnf-social-actions" aria-label="Neighbourhood map options" markdown>
+[Open full-size map](assets/okazaki-neighbourhood.svg?v=20261107-map-layout){ .md-button target="_blank" rel="noopener" }
 [Walk back to the dinner venue](https://www.google.com/maps/dir/?api=1&destination=35.0152411%2C135.7841311&travelmode=walking){ .md-button .md-button--primary }
 </nav>
 <p class="scnf-visit-note">A: canal & books · B: arcade & Shirakawa. Simplified map; distances are approximate. <a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a> / <a href="https://routing.openstreetmap.de/about.html">FOSSGIS</a> · <a href="../assets/scnf-kyoto-afternoon-places.kml">KML download</a>.</p>
@@ -181,7 +179,7 @@ The former boat railway's lower end, then coffee near Nanzen-ji. Go before sunse
 </div>
 <p class="scnf-visit-note">Times include the return walk and a short stop. <a href="https://eco.mtk.nao.ac.jp/koyomi/dni/2026/s2712.html">Sunset is around 16:45</a>; allow time to get back before the regrouping time, once announced. Independent outings; refreshments are paid for individually.</p>
 
-### Places & practical information { #place-directory .no-permalink }
+### Places by area { #place-directory .no-permalink }
 
 <p class="scnf-visit-note">One-way walks from the dinner venue (0). Entry and café times are in the small notes.</p>
 
@@ -386,6 +384,32 @@ The former boat railway's lower end, then coffee near Nanzen-ji. Go before sunse
 Independent outings after dinner, with your own return arrangements.
 </details>
 
+### On the day { #practical-info .no-permalink }
+
+<details class="scnf-travel-detail scnf-compact-detail" id="getting-back" open markdown>
+<summary>Getting back after dinner</summary>
+
+If you are staying at **The Royal Park Hotel Kyoto Umekoji**, the options below may help. If you explore elsewhere after dinner, check a route from your new location and the last trains before setting out.
+
+**By rail:** walk to **Higashiyama Station (T10)**, about 10 minutes according to the venue's access guide. Take the **Subway Tozai Line towards Uzumasa Tenjingawa** to **Nijo (T15)**, then change to a **local JR Sagano Line train towards Kyoto**. Get off at **Umekoji-Kyotonishi**, about a 1-minute walk from the hotel. Allow extra time for the walk, waiting and changing trains.
+
+<nav class="scnf-actions scnf-social-actions" aria-label="Hotel return options" markdown>
+[Plan the journey · Google Maps](https://www.google.com/maps/dir/?api=1&origin=Heian+Jingu+Kaikan+Kyoto&destination=The+Royal+Park+Hotel+Kyoto+Umekoji&travelmode=transit){ .md-button }
+[Hotel access](https://www.royalparkhotels.co.jp/en/the/kyotoumekoji/about/access/){ .md-button }
+</nav>
+
+**From Gion or Kodaiji:** a taxi to your hotel is a straightforward option; arrange it from your new location.
+
+**For a taxi driver:** show the hotel name and address below. Taxi availability, journey time and fare vary.
+
+<address class="scnf-taxi-card">
+<strong>The Royal Park Hotel Kyoto Umekoji</strong><br>
+<span lang="ja">ザ ロイヤルパークホテル 京都梅小路<br>京都市下京区観喜寺町9-3</span>
+</address>
+
+These are independent return options.
+</details>
+
 <details class="scnf-travel-detail scnf-compact-detail" id="visit-tips" markdown>
 <summary>Visit tips & opening-hour notes</summary>
 
@@ -403,41 +427,22 @@ Return to **Heian Jingu Kaikan · 平安神宮会館 (0)** for dinner. Distances
 Regular Thursday hours checked on 6 November 2026. Check current notices for one-off closures or private events. Independent visits and drinks are paid for individually.
 </details>
 
-<details class="scnf-travel-detail scnf-compact-detail" id="getting-back" markdown>
-<summary>Getting back after dinner</summary>
-
-If you are staying at **The Royal Park Hotel Kyoto Umekoji**, the options below may help. If you explore elsewhere after dinner, check a route from your new location and the last trains before setting out.
-
-**By rail:** walk to **Higashiyama Station (T10)**, about 10 minutes according to the venue's access guide. Take the **Subway Tozai Line towards Uzumasa Tenjingawa** to **Nijo (T15)**, then change to a **local JR Sagano Line train towards Kyoto**. Get off at **Umekoji-Kyotonishi**, about a 1-minute walk from the hotel. Allow extra time for the walk, waiting and changing trains.
-
-[Plan the journey · Google Maps](https://www.google.com/maps/dir/?api=1&origin=Heian+Jingu+Kaikan+Kyoto&destination=The+Royal+Park+Hotel+Kyoto+Umekoji&travelmode=transit){ .md-button } · [Hotel access](https://www.royalparkhotels.co.jp/en/the/kyotoumekoji/about/access/)
-
-**From Gion or Kodaiji:** a taxi to your hotel is a straightforward option; arrange it from your new location.
-
-**For a taxi driver:** show the hotel name and address below. Taxi availability, journey time and fare vary.
-
-<address class="scnf-taxi-card">
-<strong>The Royal Park Hotel Kyoto Umekoji</strong><br>
-<span lang="ja">ザ ロイヤルパークホテル 京都梅小路<br>京都市下京区観喜寺町9-3</span>
-</address>
-
-These are independent return options; group transport arrangements will be announced separately.
-</details>
-
 <details class="scnf-travel-detail scnf-compact-detail" id="maps" markdown>
 <summary>Venue maps & access</summary>
 
-Open the venue maps below in Google Maps. Event meeting points and group transport details will be announced separately.
+Open the venue maps below in Google Maps. Event meeting points will be announced separately.
 
 ### Heian Jingu / Heian Jingu Kaikan { #heian-map .no-permalink }
 
 Heian Jingu Kaikan, Okazaki, Kyoto (dinner venue).
 
-[Shrine: Google map](https://www.google.com/maps/search/?api=1&query=Heian+Jingu+Shrine+Kyoto) · [Dinner venue: Google map](https://www.google.com/maps/search/?api=1&query=Heian+Jingu+Kaikan+Kyoto){ .md-button .md-button--primary } · [Venue access](https://www.heianjingu.com/en/#access)
+<nav class="scnf-actions scnf-social-actions" aria-label="Shrine and dinner venue maps" markdown>
+[Shrine: Google map](https://www.google.com/maps/search/?api=1&query=Heian+Jingu+Shrine+Kyoto){ .md-button }
+[Dinner venue: Google map](https://www.google.com/maps/search/?api=1&query=Heian+Jingu+Kaikan+Kyoto){ .md-button }
+[Venue access](https://www.heianjingu.com/en/#access){ .md-button }
+</nav>
 
 </details>
-
-<p class="scnf-visit-note" id="welcome-reception"><span id="tuesday-8-december"></span><span id="patio-map"></span>For the 8 December Welcome Reception, see the <a href="../program/#welcome-reception">Program</a>.</p>
 
 <details class="scnf-travel-detail scnf-compact-detail" id="photo-credits" markdown>
 <summary>Small-photo credits</summary>
@@ -452,8 +457,10 @@ Reference photographs, displayed as cropped thumbnails.
 
 Participation in social events is optional and needs to be arranged separately from attendance at the academic sessions. Please [contact the organizers](venue.md#contact) about availability and participation.
 
+<p class="scnf-visit-note" id="welcome-reception"><span id="tuesday-8-december"></span><span id="patio-map"></span>For the 8 December Welcome Reception, see the <a href="../program/#welcome-reception">Program</a>.</p>
+
 For places to explore on your own, see [Explore Kyoto](explore-kyoto.md).
 
-<nav class="scnf-actions" aria-label="Related workshop information" markdown>
+<nav class="scnf-actions scnf-social-actions" aria-label="Related workshop information" markdown>
 [Program](program.md){ .md-button }
 </nav>

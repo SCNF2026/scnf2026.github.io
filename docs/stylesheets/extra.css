@@ -1732,33 +1732,45 @@ body {
   font-weight: 700;
 }
 
-.scnf-guide-map object {
-  display: block;
-  width: 100%;
-  height: auto;
-  aspect-ratio: 58 / 55;
-}
-
-.scnf-guide-map--mobile { display: none; }
+/* Full map on desktop; map-only with readable HTML names on tablets/phones. */
+.scnf-guide-map--desktop { max-width: 960px; margin-inline: auto; }
+.scnf-guide-map object { display: block; width: 100%; height: auto; aspect-ratio: 116 / 101; }
+.scnf-guide-map--mobile { display: none; max-width: 660px; margin-inline: auto; }
 .scnf-guide-map--mobile object { aspect-ratio: 66 / 68; }
 .scnf-mobile-places { display: none; }
 .scnf-practical-grid h4 { margin-top: 0; }
+.scnf-social-actions .md-button { max-width: 100%; box-sizing: border-box; white-space: normal; word-break: normal; overflow-wrap: break-word; }
+.md-content__inner ol.scnf-map-index a[href]:not(.md-button):not(.headerlink) { text-decoration-line: none; word-break: normal; }
+[data-md-color-scheme="slate"] .scnf-guide-map { filter: brightness(0.93); }
+[data-md-color-scheme="slate"] :is(.scnf-map-badge, .scnf-place-number) { box-shadow: 0 0 0 2px rgb(255 255 255 / 0.5); }
 
-@media screen and (max-width: 600px) {
-  .scnf-guide-start { grid-template-columns: 1fr; gap: 0.75rem; padding: 1rem; }
+@media screen and (max-width: 1023px) {
   .scnf-guide-map--desktop { display: none; }
   .scnf-guide-map--mobile { display: block; }
   .scnf-mobile-places { display: block; margin: 0.75rem 0 1rem; }
   .md-typeset .scnf-map-index-title { margin: 0 0 0.5rem; font-size: 0.75rem; font-weight: 650; }
-  .md-typeset ol.scnf-map-index { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.4rem; list-style: none; margin: 0; padding: 0; }
+  .md-typeset ol.scnf-map-index { display: grid; grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr)); gap: 0.4rem; list-style: none; margin: 0; padding: 0; }
   .md-typeset ol.scnf-map-index > li { margin: 0; padding: 0; min-width: 0; }
   .md-typeset ol.scnf-map-index > li.scnf-map-area { grid-column: 1 / -1; margin: 0.45rem 0 0; padding: 0; font-size: 0.68rem; line-height: 1.4; font-weight: 650; color: var(--scnf-muted); }
-  .md-typeset ol.scnf-map-index a:not(.md-button) { display: flex; align-items: center; gap: 0.4rem; box-sizing: border-box; min-height: 60px; height: 100%; padding: 0.4rem; border: 1px solid var(--scnf-border); border-radius: 0.4rem; background: var(--scnf-bg-2); color: var(--md-default-fg-color); font-size: 0.72rem; line-height: 1.35; text-decoration: none; overflow-wrap: anywhere; }
-  .scnf-map-badge { display: grid; place-items: center; flex: 0 0 27px; height: 27px; border-radius: 50%; color: #fff; background: var(--place-color); font-size: 0.65rem; font-weight: 700; }
+  .md-typeset ol.scnf-map-index a:not(.md-button) { display: flex; align-items: center; gap: 0.3rem; box-sizing: border-box; min-height: 60px; height: 100%; padding: 0.35rem; border: 1px solid var(--scnf-border); border-radius: 0.4rem; background: var(--scnf-bg-2); color: var(--md-default-fg-color); font-size: 0.72rem; line-height: 1.35; text-decoration: none; overflow-wrap: break-word; }
+  .scnf-map-index a > span:last-child { min-width: 0; word-break: normal; overflow-wrap: break-word; }
+  .scnf-map-badge { display: grid; place-items: center; flex: 0 0 24px; height: 24px; border-radius: 50%; color: #fff; background: var(--place-color); font-size: 0.65rem; font-weight: 700; }
   .md-typeset ul.scnf-map-categories { display: flex; flex-wrap: wrap; gap: 0.3rem 0.7rem; list-style: none; padding: 0; margin: 0.65rem 0 0; font-size: 0.65rem; color: var(--scnf-muted); }
   .md-typeset ul.scnf-map-categories li { display: flex; align-items: center; gap: 0.25rem; padding: 0; margin: 0; }
   .scnf-map-categories li > span { width: 8px; height: 8px; border-radius: 50%; background: var(--place-color); }
+}
+@media screen and (max-width: 600px) {
+  .scnf-guide-start { grid-template-columns: 1fr; gap: 0.75rem; padding: 1rem; }
+  .scnf-social-jumps { margin: 0.65rem 0; padding-block: 0.3rem; }
+  .md-typeset section[aria-labelledby="kyoto-afternoon"] > h2 { margin-top: 0.45rem; }
+  .scnf-social-jumps > p { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.3rem; }
+  .scnf-social-jumps a { justify-content: center; min-width: 0; padding: 0.25rem 0.35rem; font-size: 0.7rem; line-height: 1.35; text-align: center; }
+  .md-typeset ol.scnf-map-index { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
 
+@media screen and (max-width: 359px) {
+  .md-typeset ol.scnf-map-index a:not(.md-button) { gap: 0.2rem; padding: 0.25rem; }
+  .scnf-map-badge { flex-basis: 22px; height: 22px; font-size: 0.6rem; }
 }
 
 .md-typeset .kyoto-photo {
@@ -2058,9 +2070,9 @@ body {
 .md-typeset .scnf-place-entry h4 a[href]:not(.md-button):not(.headerlink) { display: inline-block; min-height: 24px; padding: 0.05rem 0; color: var(--md-default-fg-color); text-decoration: none; }
 .md-typeset .scnf-place-entry h4 a[href]:hover { color: var(--scnf-link); text-decoration: underline; }
 .md-typeset .scnf-place-teaser { margin: 0 0 0.15rem; font-size: 0.72rem; line-height: 1.45; }
-.md-typeset .scnf-place-meta { margin: 0; color: var(--scnf-muted); font-size: 0.61rem; line-height: 1.5; }
+.md-typeset .scnf-place-meta { margin: 0; color: var(--scnf-muted); font-size: 0.65rem; line-height: 1.5; }
 .scnf-place-meta a { display: inline-block; min-height: 24px; padding: 0.08rem 0.14rem; }
-.md-typeset .scnf-place-hours { margin: 0.1rem 0 0; padding-left: 0.7rem; border-left: 1px solid var(--scnf-border); color: var(--scnf-muted); font-size: 0.63rem; line-height: 1.5; }
+.md-typeset .scnf-place-hours { margin: 0.1rem 0 0; padding-left: 0.7rem; border-left: 1px solid var(--scnf-border); color: var(--scnf-muted); font-size: 0.68rem; line-height: 1.5; }
 .scnf-place-hours small { font-size: inherit; color: inherit; opacity: 1; }
 .md-typeset .scnf-place-thumb { display: block; width: 80px; height: 64px; margin-top: 0.1rem; }
 .scnf-place-thumb img { display: block; width: 80px; height: 64px; object-fit: cover; border-radius: 0.35rem; }
@@ -2069,6 +2081,6 @@ body {
   .scnf-place-main--photo { grid-template-columns: 68px minmax(0, 1fr); gap: 0.5rem; }
   .md-typeset .scnf-place-entry h4 { font-size: 0.76rem; }
   .md-typeset .scnf-place-teaser { font-size: 0.7rem; }
-  .md-typeset .scnf-place-hours { border-left: 0; padding-left: 0; margin-top: 0.18rem; font-size: 0.61rem; }
+  .md-typeset .scnf-place-hours { border-left: 0; padding-left: 0; margin-top: 0.18rem; font-size: 0.68rem; }
   .md-typeset .scnf-place-thumb, .scnf-place-thumb img { width: 68px; height: 60px; }
 }
