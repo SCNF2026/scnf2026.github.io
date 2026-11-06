@@ -84,20 +84,17 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra_css:
-  - "stylesheets/extra.css?v=20261106-photo-credits"
+  - "stylesheets/extra.css?v=20261107-social-tab"
 
 # Preserve draft sources without publishing their pages, search entries or sitemap URLs.
 exclude_docs: |
   /open-day.md
   /open-day-registration.md
 
-# These pages are reached from the main pages rather than the top navigation.
-not_in_nav: |
-  /social-events.md
-
 nav:
   - Home: index.md
   - Program: program.md
+  - Social Events: social-events.md
   - Invited Speakers: participants.md
   - Venue & Travel: venue.md
   - Explore Kyoto: explore-kyoto.md
