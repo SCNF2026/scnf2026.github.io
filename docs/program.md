@@ -54,5 +54,3 @@ Afternoon and evening: [Cultural visit to Heian Jingu and Official Dinner](socia
 
 In-depth research talks by invited speakers, with focused discussions among workshop participants.
 </section>
-
-For participation enquiries, please [contact the organizers](venue.md#contact).
