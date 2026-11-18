@@ -23,8 +23,7 @@ extra:
 
 copyright: >-
   <span class="scnf-footer-copy">
-    Supported by <a href="https://www.jst.go.jp/kisoken/presto/en/" target="_blank" rel="noopener">JST PRESTO</a>
-    "Complex Flow" project &nbsp;|&nbsp; &copy; 2026 SCNF 2026 Organizing Committee
+    &copy; 2026 SCNF 2026 Organizing Committee
   </span>
   <nav class="scnf-footer-actions" aria-label="Footer links">
     <a class="scnf-footer-action" href="#__consent">Cookie settings</a>
@@ -84,7 +83,7 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra_css:
-  - "stylesheets/extra.css?v=20261107-social-polish"
+  - "stylesheets/extra.css?v=20261118-presto-support"
 
 # Preserve draft sources without publishing their pages, search entries or sitemap URLs.
 exclude_docs: |

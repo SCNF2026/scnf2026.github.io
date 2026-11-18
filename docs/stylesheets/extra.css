@@ -1082,6 +1082,151 @@ body {
   overflow-wrap: anywhere;
 }
 
+/* ===== JST PRESTO / Complex Flow research support ===== */
+.scnf-presto-support {
+  border-top: 1px solid var(--scnf-border);
+  background: var(--md-default-bg-color);
+}
+
+.scnf-presto-support__inner {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 9rem minmax(0, 1fr) 12rem;
+  grid-template-areas: "logo acknowledgement area";
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.1rem 1.2rem;
+}
+
+.scnf-presto-support__logo,
+.scnf-presto-support__area {
+  box-sizing: border-box;
+  display: block;
+  max-width: 100%;
+  border-radius: 0.25rem;
+  background: #fff;
+}
+
+.scnf-presto-support__logo {
+  grid-area: logo;
+  width: 9rem;
+  padding: 0.65rem;
+}
+
+.scnf-presto-support__area {
+  grid-area: area;
+  justify-self: center;
+  width: 8.5rem;
+  padding: 0.8rem;
+}
+
+.scnf-presto-support img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.scnf-presto-support__acknowledgement {
+  grid-area: acknowledgement;
+  margin: 0;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.72rem;
+  line-height: 1.7;
+}
+
+.scnf-presto-support__acknowledgement a {
+  color: var(--scnf-link);
+  text-decoration: underline;
+  text-underline-offset: 0.16em;
+}
+
+.scnf-presto-support a:focus-visible {
+  outline: 2px solid var(--scnf-link);
+  outline-offset: 0.2rem;
+}
+
+@media screen and (max-width: 760px) {
+  .scnf-presto-support__inner {
+    grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+    grid-template-areas: "logo area" "acknowledgement acknowledgement";
+    gap: 0.9rem 1.2rem;
+    padding: 1rem 1.2rem;
+  }
+
+  .scnf-presto-support__area {
+    padding: 0.6rem;
+  }
+}
+
+/* ===== Kyoto subsidy acknowledgement and required fund banner ===== */
+.scnf-kyoto-support {
+  border-top: 1px solid var(--scnf-border);
+  background: var(--md-default-bg-color);
+}
+
+.scnf-kyoto-support__inner {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 9rem minmax(0, 1fr) 12rem;
+  grid-template-areas: "logo acknowledgement fund";
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.3rem 1.2rem;
+}
+
+.scnf-kyoto-support__logo {
+  grid-area: logo;
+  padding: 0.65rem;
+  border-radius: 0.25rem;
+  background: #fff;
+}
+
+.scnf-kyoto-support__fund {
+  grid-area: fund;
+}
+
+.scnf-kyoto-support__logo,
+.scnf-kyoto-support__fund {
+  display: block;
+  min-width: 0;
+}
+
+.scnf-kyoto-support img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.scnf-kyoto-support__acknowledgement {
+  grid-area: acknowledgement;
+  max-width: 44rem;
+  margin: 0;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.72rem;
+  line-height: 1.7;
+}
+
+.scnf-kyoto-support a:focus-visible {
+  outline: 2px solid var(--scnf-link);
+  outline-offset: 0.2rem;
+}
+
+@media screen and (max-width: 760px) {
+  .scnf-kyoto-support__inner {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-areas: "logo fund" "acknowledgement acknowledgement";
+    gap: 0.9rem 1.2rem;
+    padding: 1rem 1.2rem;
+  }
+
+  .scnf-kyoto-support__logo,
+  .scnf-kyoto-support__fund {
+    width: 100%;
+    max-width: 12rem;
+    box-sizing: border-box;
+  }
+}
+
 /* ===== Compact, explicit footer actions ===== */
 .md-copyright {
   width: 100%;

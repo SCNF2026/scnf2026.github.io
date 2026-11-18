@@ -19,3 +19,9 @@
     <meta name="twitter:description" content="{{ social_description | striptags | e }}" />
   {% endif %}
 {% endblock %}
+
+{% block footer %}
+  {% include "partials/presto-support.html" %}
+  {% include "partials/kyoto-support.html" %}
+  {{ super() }}
+{% endblock %}
